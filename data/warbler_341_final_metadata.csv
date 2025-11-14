@@ -1,342 +1,342 @@
-"SpecimenID","Species","SamplingCategory","YearSampled","State","SiteInfo","lat","lon","Sp","Species_samplingcategory"
-"101994","Prairie Warbler","historic","1900","Massachusetts","West Quincy",42.235,-71.046,"PRAW","PRAW_historic"
-"10693","Blackpoll Warbler","contemporary","?","New York","Blackhead Mountain, Greene County",42.266,-74.104,"BLPW","BLPW_contemporary"
-"10765","Blackpoll Warbler","contemporary","?","New York","Blackhead Mountain, Greene County",42.266,-74.104,"BLPW","BLPW_contemporary"
-"10921","Myrtle Warbler","historic","1941","New York","Ithaca",42.448,-76.497,"YRWA","YRWA_historic"
-"10922","Myrtle Warbler","historic","1941","New York","Ithaca",42.448,-76.497,"YRWA","YRWA_historic"
-"10923","Myrtle Warbler","historic","1941","New York","Ithaca",42.448,-76.497,"YRWA","YRWA_historic"
-"10924","Myrtle Warbler","historic","1941","New York","Ithaca",42.448,-76.497,"YRWA","YRWA_historic"
-"10989","Blackpoll Warbler","contemporary","?","New York","Blackhead Mountain, Greene County",42.266,-74.104,"BLPW","BLPW_contemporary"
-"11065","Black-throated Blue Warbler","historic","1888","Michigan","Jackson County",42.315,-84.242,"BTBW","BTBW_historic"
-"11066","Black-throated Blue Warbler","historic","1888","Michigan","Jackson County",42.315,-84.242,"BTBW","BTBW_historic"
-"11077","Blackpoll Warbler","contemporary","?","New York","Blackhead Mountain, Greene County",42.266,-74.104,"BLPW","BLPW_contemporary"
-"11078","Blackpoll Warbler","contemporary","?","New York","Blackhead Mountain, Greene County",42.266,-74.104,"BLPW","BLPW_contemporary"
-"11079","Blackpoll Warbler","contemporary","?","New York","Blackhead Mountain, Greene County",42.266,-74.104,"BLPW","BLPW_contemporary"
-"11089","Blackpoll Warbler","contemporary","?","New York","Blackhead Mountain, Greene County",42.266,-74.104,"BLPW","BLPW_contemporary"
-"1116","Blackpoll Warbler","contemporary","2012","Vermont","Mount Mansfield",44.543,-72.814,"BLPW","BLPW_contemporary"
-"1118","Myrtle Warbler","contemporary","2012","Vermont","Lamoille - Mount Mansfield",44.543,-72.814,"YRWA","YRWA_contemporary"
-"1120","Myrtle Warbler","contemporary","2012","Vermont","Lamoille - Mount Mansfield",44.543,-72.814,"YRWA","YRWA_contemporary"
-"1121","Myrtle Warbler","contemporary","2012","Vermont","Lamoille - Mount Mansfield",44.543,-72.814,"YRWA","YRWA_contemporary"
-"1124","Myrtle Warbler","contemporary","2012","Vermont","Lamoille - Mount Mansfield",44.543,-72.814,"YRWA","YRWA_contemporary"
-"1136","Myrtle Warbler","contemporary","2012","Vermont","Lamoille - Mount Mansfield",44.543,-72.814,"YRWA","YRWA_contemporary"
-"1138","Myrtle Warbler","contemporary","2012","Vermont","Lamoille - Mount Mansfield",44.543,-72.814,"YRWA","YRWA_contemporary"
-"1143","Blackpoll Warbler","contemporary","2012","Vermont","Mount Mansfield",44.543,-72.814,"BLPW","BLPW_contemporary"
-"1144","Myrtle Warbler","contemporary","2012","Vermont","Lamoille - Mount Mansfield",44.543,-72.814,"YRWA","YRWA_contemporary"
-"1148","Myrtle Warbler","contemporary","2012","Vermont","Lamoille - Mount Mansfield",44.543,-72.814,"YRWA","YRWA_contemporary"
-"1149","Blackpoll Warbler","contemporary","2012","Vermont","Mount Mansfield",44.543,-72.814,"BLPW","BLPW_contemporary"
-"1151","Myrtle Warbler","contemporary","2012","Vermont","Lamoille - Mount Mansfield",44.543,-72.814,"YRWA","YRWA_contemporary"
-"1152","Myrtle Warbler","contemporary","2012","Vermont","Lamoille - Mount Mansfield",44.543,-72.814,"YRWA","YRWA_contemporary"
-"127948","Myrtle Warbler","historic","1924","Vermont","North Thetford",43.844,-72.186,"YRWA","YRWA_historic"
-"127950","Myrtle Warbler","historic","1924","Vermont","Killington Peak",43.604,-72.819,"YRWA","YRWA_historic"
-"127951","Myrtle Warbler","historic","1927","Vermont","Killington Peak",43.604,-72.819,"YRWA","YRWA_historic"
-"128080","Prairie Warbler","historic","1920","Massachusetts","Harvard - Worcester County",42.395,-71.915,"PRAW","PRAW_historic"
-"128081","Prairie Warbler","historic","1922","Massachusetts","Harvard - Worcester County",42.395,-71.915,"PRAW","PRAW_historic"
-"128084","Prairie Warbler","historic","1926","Massachusetts","Harvard - Worcester County",42.395,-71.915,"PRAW","PRAW_historic"
-"128086","Prairie Warbler","historic","1913","Massachusetts","Harvard - Worcester County",42.395,-71.915,"PRAW","PRAW_historic"
-"15625","Myrtle Warbler","historic","1942","New York","Panther Gorge - Adirondack Area",44.093,-73.915,"YRWA","YRWA_historic"
-"16246","Black-throated Blue Warbler","historic","1909","New York","Ithaca",42.448,-76.497,"BTBW","BTBW_historic"
-"16255","Black-throated Blue Warbler","historic","1900","New York","Scarborough",41.136,-73.864,"BTBW","BTBW_historic"
-"16256","Black-throated Blue Warbler","historic","1894","New York","Potsdam",44.657,-74.978,"BTBW","BTBW_historic"
-"16269","Myrtle Warbler","historic","1900","New York","Ithaca",42.448,-76.497,"YRWA","YRWA_historic"
-"16270","Myrtle Warbler","historic","1902","New York","Ithaca",42.448,-76.497,"YRWA","YRWA_historic"
-"16272","Myrtle Warbler","historic","1909","New York","Ithaca",42.448,-76.497,"YRWA","YRWA_historic"
-"16273","Myrtle Warbler","historic","1923","New York","Ithaca",42.448,-76.497,"YRWA","YRWA_historic"
-"16274","Myrtle Warbler","historic","1924","New York","Ithaca",42.448,-76.497,"YRWA","YRWA_historic"
-"16275","Myrtle Warbler","historic","1923","New York","Ithaca",42.448,-76.497,"YRWA","YRWA_historic"
-"16277","Myrtle Warbler","historic","1930","New York","Ithaca",42.448,-76.497,"YRWA","YRWA_historic"
-"16278","Myrtle Warbler","historic","1930","New York","Ithaca",42.448,-76.497,"YRWA","YRWA_historic"
-"16281","Myrtle Warbler","historic","1939","New York","Ithaca",42.448,-76.497,"YRWA","YRWA_historic"
-"16283","Myrtle Warbler","historic","1909","New York","Ithaca",42.448,-76.497,"YRWA","YRWA_historic"
-"16288","Myrtle Warbler","historic","1940","New York","Ithaca",42.448,-76.497,"YRWA","YRWA_historic"
-"16289","Myrtle Warbler","historic","1940","New York","Ithaca",42.448,-76.497,"YRWA","YRWA_historic"
-"16290","Myrtle Warbler","historic","1899","New York","Harrietstown Township, Wawbeek - Adirondack Area",44.253,-74.339,"YRWA","YRWA_historic"
-"165394","Prairie Warbler","historic","1879","Massachusetts","Swampscott",42.478,-70.909,"PRAW","PRAW_historic"
-"165395","Prairie Warbler","historic","1879","Massachusetts","Swampscott",42.478,-70.909,"PRAW","PRAW_historic"
-"165397","Prairie Warbler","historic","1879","Massachusetts","Swampscott",42.478,-70.909,"PRAW","PRAW_historic"
-"1670","Blackpoll Warbler","contemporary","?","Vermont","Mount Mansfield",44.543,-72.814,"BLPW","BLPW_contemporary"
-"1671","Blackpoll Warbler","contemporary","?","Vermont","Mount Mansfield",44.543,-72.814,"BLPW","BLPW_contemporary"
-"1672","Blackpoll Warbler","contemporary","?","Vermont","Mount Mansfield",44.543,-72.814,"BLPW","BLPW_contemporary"
-"1673","Blackpoll Warbler","contemporary","?","Vermont","Mount Mansfield",44.543,-72.814,"BLPW","BLPW_contemporary"
-"1674","Blackpoll Warbler","contemporary","?","Vermont","Mount Mansfield",44.543,-72.814,"BLPW","BLPW_contemporary"
-"1675","Blackpoll Warbler","contemporary","?","Vermont","Mount Mansfield",44.543,-72.814,"BLPW","BLPW_contemporary"
-"1676","Blackpoll Warbler","contemporary","?","Vermont","Mount Mansfield",44.543,-72.814,"BLPW","BLPW_contemporary"
-"1677","Blackpoll Warbler","contemporary","?","Vermont","Mount Mansfield",44.543,-72.814,"BLPW","BLPW_contemporary"
-"1679","Blackpoll Warbler","contemporary","?","Vermont","Mount Mansfield",44.543,-72.814,"BLPW","BLPW_contemporary"
-"1680","Blackpoll Warbler","contemporary","?","Vermont","Mount Mansfield",44.543,-72.814,"BLPW","BLPW_contemporary"
-"17240","Blackpoll Warbler","historic","1896","New York","Cayuga County - Cayuga",42.915,-76.716,"BLPW","BLPW_historic"
-"17304","Prairie Warbler","historic","1888","Arkansas","Cleburne County",35.556,-92.012,"PRAW","PRAW_historic"
-"17305","Prairie Warbler","historic","1888","Arkansas","Cleburne County",35.556,-92.012,"PRAW","PRAW_historic"
-"17306","Prairie Warbler","historic","1888","Arkansas","Cleburne County",35.556,-92.012,"PRAW","PRAW_historic"
-"17314","Prairie Warbler","historic","1872","Massachusetts","Norfolk County - Needham",42.279,-71.196,"PRAW","PRAW_historic"
-"17316","Prairie Warbler","historic","1888","Arkansas","Cleburne County",35.556,-92.012,"PRAW","PRAW_historic"
-"17317","Prairie Warbler","historic","1912","Massachusetts","Bristol county - Taunton",41.887,-71.088,"PRAW","PRAW_historic"
-"17323","Prairie Warbler","historic","1879","Massachusetts","Barnstable County - Sandwich ",41.74,-70.506,"PRAW","PRAW_historic"
-"19350","Prairie Warbler","historic","1888","Arkansas","Cleburne County",35.556,-92.012,"PRAW","PRAW_historic"
-"196","Prairie Warbler","contemporary","2012","Massachusetts","Montague area",42.544,-72.514,"PRAW","PRAW_contemporary"
-"202182","Prairie Warbler","historic","1877","Massachusetts","Middlesex",42.541,-71.379,"PRAW","PRAW_historic"
-"21308","Black-throated Blue Warbler","historic","1947","New York","Ithaca",42.448,-76.497,"BTBW","BTBW_historic"
-"21361","Myrtle Warbler","historic","1947","New York","Ithaca",42.448,-76.497,"YRWA","YRWA_historic"
-"218495","Black-throated Blue Warbler","historic","1888","Michigan","?",45.425,-86.4834,"BTBW","BTBW_historic"
-"218496","Black-throated Blue Warbler","historic","1888","Michigan","?",45.425,-86.4834,"BTBW","BTBW_historic"
-"218498","Black-throated Blue Warbler","historic","1888","Michigan","?",45.425,-86.4834,"BTBW","BTBW_historic"
-"218499","Black-throated Blue Warbler","historic","1888","Michigan","?",45.425,-86.4834,"BTBW","BTBW_historic"
-"23489","Black-throated Blue Warbler","historic","1952","New York","Ithaca",41.991,-74.32,"BTBW","BTBW_historic"
-"23848","Black-throated Blue Warbler","historic","1950","New York","Bear Spring Mountain",42.144,-75.121,"BTBW","BTBW_historic"
-"23849","Black-throated Blue Warbler","historic","1950","New York","Bear Spring Mountain",42.144,-75.121,"BTBW","BTBW_historic"
-"23850","Black-throated Blue Warbler","historic","1950","New York","Newcomb, Goodnow Mountain, elevation 2000 feet.",43.969,-74.164,"BTBW","BTBW_historic"
-"23854","Myrtle Warbler","historic","1952","New York","Ithaca",42.448,-76.497,"YRWA","YRWA_historic"
-"23858","Myrtle Warbler","historic","1950","New York","Newcomb - Adirondack Area",43.969,-74.164,"YRWA","YRWA_historic"
-"23859","Myrtle Warbler","historic","1950","New York","Newcomb - Adirondack Area",43.969,-74.164,"YRWA","YRWA_historic"
-"23870","Blackpoll Warbler","historic","1950","New York","Whiteface Mountain - Adirondack Area",44.365,-73.904,"BLPW","BLPW_historic"
-"23871","Blackpoll Warbler","historic","1950","New York","Whiteface Mountain - Adirondack Area",44.365,-73.904,"BLPW","BLPW_historic"
-"24219","Myrtle Warbler","historic","1952","New York","Ithaca",42.448,-76.497,"YRWA","YRWA_historic"
-"24406","Myrtle Warbler","historic","1953","New York","Whiteface Mountain - Adirondack Area",44.365,-73.904,"YRWA","YRWA_historic"
-"24407","Myrtle Warbler","historic","1953","New York","Whiteface Mountain - Adirondack Area",44.365,-73.904,"YRWA","YRWA_historic"
-"24408","Myrtle Warbler","historic","1953","New York","Whiteface Mountain - Adirondack Area",44.365,-73.904,"YRWA","YRWA_historic"
-"24413","Myrtle Warbler","historic","1953","New York","Whiteface Mountain - Adirondack Area",44.365,-73.904,"YRWA","YRWA_historic"
-"25334","Blackpoll Warbler","historic","1955","New York","Bridgeport, Adirondack Area",43.145,-75.97,"BLPW","BLPW_historic"
-"25335","Blackpoll Warbler","historic","1955","New York","Bridgeport, Adirondack Area",43.145,-75.97,"BLPW","BLPW_historic"
-"275","Prairie Warbler","contemporary","2012","Massachusetts","Montague area",42.544,-72.514,"PRAW","PRAW_contemporary"
-"276017404","Prairie Warbler","contemporary","2014","New Hampshire","Beaudette",43.113,-70.933,"PRAW","PRAW_contemporary"
-"276017405","Prairie Warbler","contemporary","2014","New Hampshire","Beaudette",43.113,-70.933,"PRAW","PRAW_contemporary"
-"276017406","Prairie Warbler","contemporary","2014","New Hampshire","Beaudette",43.113,-70.933,"PRAW","PRAW_contemporary"
-"276017407","Prairie Warbler","contemporary","2014","New Hampshire","Beaudette",43.113,-70.933,"PRAW","PRAW_contemporary"
-"276017429","Prairie Warbler","contemporary","2014","New Hampshire","PWRLnHannDov",43.182,-70.941,"PRAW","PRAW_contemporary"
-"276017430","Prairie Warbler","contemporary","2014","New Hampshire","PWRLnHannDov",43.182,-70.941,"PRAW","PRAW_contemporary"
-"276017431","Prairie Warbler","contemporary","2014","New Hampshire","PWRLnHannDov",43.182,-70.941,"PRAW","PRAW_contemporary"
-"276017432","Prairie Warbler","contemporary","2014","New Hampshire","PWRLnHannDov",43.182,-70.941,"PRAW","PRAW_contemporary"
-"276017442","Prairie Warbler","contemporary","2014","New Hampshire","PWRLnHannDov",43.182,-70.941,"PRAW","PRAW_contemporary"
-"276017465","Prairie Warbler","contemporary","2014","New Hampshire","EFossFarmNEC",43.126,-70.936,"PRAW","PRAW_contemporary"
-"276017478","Prairie Warbler","contemporary","2014","New Hampshire","PWRLnHannDov",43.182,-70.941,"PRAW","PRAW_contemporary"
-"276017479","Prairie Warbler","contemporary","2014","New Hampshire","PWRLnHannDov",43.182,-70.941,"PRAW","PRAW_contemporary"
-"276017481","Prairie Warbler","contemporary","2014","New Hampshire","PWRLnHannDov",43.182,-70.941,"PRAW","PRAW_contemporary"
-"276017483","Prairie Warbler","contemporary","2014","New Hampshire","PWRLnHannDov",43.182,-70.941,"PRAW","PRAW_contemporary"
-"276017485","Prairie Warbler","contemporary","2014","New Hampshire","PWRLnHannDov",43.182,-70.941,"PRAW","PRAW_contemporary"
-"276017486","Prairie Warbler","contemporary","2014","New Hampshire","PWRLnHannDov",43.182,-70.941,"PRAW","PRAW_contemporary"
-"276017487","Prairie Warbler","contemporary","2014","New Hampshire","PWRLnHannDov",43.182,-70.941,"PRAW","PRAW_contemporary"
-"276017488","Prairie Warbler","contemporary","2014","New Hampshire","PWRLnHannDov",43.182,-70.941,"PRAW","PRAW_contemporary"
-"276017489","Prairie Warbler","contemporary","2014","New Hampshire","PWRLnHannDov",43.182,-70.941,"PRAW","PRAW_contemporary"
-"276026238","Prairie Warbler","contemporary","2014","New Hampshire","PWRLnHannDov",43.182,-70.941,"PRAW","PRAW_contemporary"
-"283","Prairie Warbler","contemporary","2012","Massachusetts","Montague area",42.544,-72.514,"PRAW","PRAW_contemporary"
-"285","Prairie Warbler","contemporary","2012","Massachusetts","Montague area",42.544,-72.514,"PRAW","PRAW_contemporary"
-"28584","Blackpoll Warbler","historic","1953","New York","Whiteface Mountain - Adirondack Area",44.365,-73.904,"BLPW","BLPW_historic"
-"295217","Myrtle Warbler","historic","1921","New Hampshire","Concord",43.228,-71.574,"YRWA","YRWA_historic"
-"30168","Blackpoll Warbler","historic","1953","New York","Whiteface Mountain - Adirondack Area",44.365,-73.904,"BLPW","BLPW_historic"
-"307","Prairie Warbler","contemporary","2012","Massachusetts","Montague area",42.544,-72.514,"PRAW","PRAW_contemporary"
-"3091","Black-throated Blue Warbler","historic","1789","Michigan","Bay County",43.68,-84.017,"BTBW","BTBW_historic"
-"3092","Black-throated Blue Warbler","historic","1789","Michigan","Bay County",43.68,-84.017,"BTBW","BTBW_historic"
-"3093","Black-throated Blue Warbler","historic","1789","Michigan","Bay County",43.68,-84.017,"BTBW","BTBW_historic"
-"309613","Prairie Warbler","historic","1904","Massachusetts","Lancaster - Worcester County",42.475,-71.683,"PRAW","PRAW_historic"
-"319","Prairie Warbler","contemporary","2012","Massachusetts","Montague area",42.544,-72.514,"PRAW","PRAW_contemporary"
-"322","Prairie Warbler","contemporary","2012","Massachusetts","Montague area",42.544,-72.514,"PRAW","PRAW_contemporary"
-"338334","Prairie Warbler","historic","1897","Massachusetts","Salem",42.509,-70.903,"PRAW","PRAW_historic"
-"3505","Black-throated Blue Warbler","historic","1911","North Carolina","?",35.061,-83.451,"BTBW","BTBW_historic"
-"3506","Black-throated Blue Warbler","historic","1911","North Carolina","?",35.061,-83.451,"BTBW","BTBW_historic"
-"3511","Black-throated Blue Warbler","historic","1919","North Carolina","?",35.061,-83.451,"BTBW","BTBW_historic"
-"415","Prairie Warbler","contemporary","2012","Massachusetts","Montague area",42.544,-72.514,"PRAW","PRAW_contemporary"
-"418","Prairie Warbler","contemporary","2012","Massachusetts","Montague area",42.544,-72.514,"PRAW","PRAW_contemporary"
-"424","Prairie Warbler","contemporary","2012","Massachusetts","Montague area",42.544,-72.514,"PRAW","PRAW_contemporary"
-"428","Prairie Warbler","contemporary","2012","Massachusetts","Montague area",42.544,-72.514,"PRAW","PRAW_contemporary"
-"439","Prairie Warbler","contemporary","2012","Massachusetts","Montague area",42.544,-72.514,"PRAW","PRAW_contemporary"
-"44318","Myrtle Warbler","contemporary","2005","New York","Cornell Laboratory of Ornithology, ~5.5 km NE Ithaca, Sapsucker Woods Road  (Bldg)",42.479,-76.45,"YRWA","YRWA_contemporary"
-"449","Prairie Warbler","contemporary","2012","Massachusetts","Montague area",42.544,-72.514,"PRAW","PRAW_contemporary"
-"450","Prairie Warbler","contemporary","2012","Massachusetts","Montague area",42.544,-72.514,"PRAW","PRAW_contemporary"
-"455","Prairie Warbler","contemporary","2012","Massachusetts","Montague area",42.544,-72.514,"PRAW","PRAW_contemporary"
-"461","Prairie Warbler","contemporary","2012","Massachusetts","Montague area",42.544,-72.514,"PRAW","PRAW_contemporary"
-"464","Prairie Warbler","contemporary","2012","Massachusetts","Montague area",42.544,-72.514,"PRAW","PRAW_contemporary"
-"469","Prairie Warbler","contemporary","2012","Massachusetts","Montague area",42.544,-72.514,"PRAW","PRAW_contemporary"
-"473","Prairie Warbler","contemporary","2012","Massachusetts","Montague area",42.544,-72.514,"PRAW","PRAW_contemporary"
-"4837","Myrtle Warbler","historic","1896","New York","Greene County - Catskills",42.271,-74.212,"YRWA","YRWA_historic"
-"4838","Myrtle Warbler","historic","1894","New York","Greene County - Catskills",42.271,-74.212,"YRWA","YRWA_historic"
-"4839","Myrtle Warbler","historic","1897","New York","Greene County - Catskills",42.271,-74.212,"YRWA","YRWA_historic"
-"4840","Myrtle Warbler","historic","1896","New York","Greene County - Catskills",42.271,-74.212,"YRWA","YRWA_historic"
-"50160","Myrtle Warbler","contemporary","2003","New York","Lansing, Lansing Station Road",42.578,-76.599,"YRWA","YRWA_contemporary"
-"52102","Myrtle Warbler","contemporary","2005","New York","Ithaca",42.448,-76.497,"YRWA","YRWA_contemporary"
-"5277","Black-throated Blue Warbler","historic","1930","North Carolina","?",35.061,-83.451,"BTBW","BTBW_historic"
-"53205","Myrtle Warbler","contemporary","2009","New York","Dryden, Gerung Circle",42.462,-76.293,"YRWA","YRWA_contemporary"
-"53436","Myrtle Warbler","contemporary","2010","New York","Ithaca, 159 Sapsucker Woods Rd.",42.479,-76.45,"YRWA","YRWA_contemporary"
-"53624","Black-throated Blue Warbler","historic","1946","New York","Ithaca, Cornell University, Fish Hatchery, Judd Falls Road and Cascadilla Creek",42.442,-76.469,"BTBW","BTBW_historic"
-"53626","Myrtle Warbler","historic","1944","New York","Ithaca",42.448,-76.497,"YRWA","YRWA_historic"
-"55013","Myrtle Warbler","contemporary","2010","New York","Greece, 1744 Edgemere Drive",43.287,-77.669,"YRWA","YRWA_contemporary"
-"55045","Myrtle Warbler","contemporary","2011","New York","Caroline Township, Brooktondale",43.382,-76.388,"YRWA","YRWA_contemporary"
-"55229","Myrtle Warbler","contemporary","2004","New York","Greece Township, ~6.75 km NE Hilton, Braddock Bay Bird Observatory",43.323,-77.717,"YRWA","YRWA_contemporary"
-"553","Blackpoll Warbler","contemporary","2008","New York","Greene County - Catskills",42.271,-74.212,"BLPW","BLPW_contemporary"
-"55362","Myrtle Warbler","contemporary","2013","New York","Cornell Laboratory of Ornithology, ~5.5 km NE Ithaca, Sapsucker Woods Road  (Bldg)",42.479,-76.45,"YRWA","YRWA_contemporary"
-"55366","Myrtle Warbler","contemporary","2013","New York","Cornell Laboratory of Ornithology, ~5.5 km NE Ithaca, Sapsucker Woods Road  (Bldg)",42.479,-76.45,"YRWA","YRWA_contemporary"
-"554","Blackpoll Warbler","contemporary","2008","New York","Greene County - Catskills",42.271,-74.212,"BLPW","BLPW_contemporary"
-"555","Blackpoll Warbler","contemporary","2008","New York","Greene County - Catskills",42.271,-74.212,"BLPW","BLPW_contemporary"
-"556","Blackpoll Warbler","contemporary","2008","New York","Greene County - Catskills",42.271,-74.212,"BLPW","BLPW_contemporary"
-"557","Blackpoll Warbler","contemporary","2008","New York","Keene - Adirondack Area",44.255,-73.792,"BLPW","BLPW_contemporary"
-"558","Blackpoll Warbler","contemporary","2008","New York","Keene - Adirondack Area",44.255,-73.792,"BLPW","BLPW_contemporary"
-"559","Blackpoll Warbler","contemporary","2008","New York","Keene - Adirondack Area",44.255,-73.792,"BLPW","BLPW_contemporary"
-"56200","Myrtle Warbler","contemporary","2015","New York","Lake Placid, 3.5 km S at Cornell-Uihlein Farm",44.255,-73.983,"YRWA","YRWA_contemporary"
-"56968","Myrtle Warbler","contemporary","2015","New York","Cornell Laboratory of Ornithology, ~5.5 km NE Ithaca, Sapsucker Woods Road  (Bldg)",42.479,-76.45,"YRWA","YRWA_contemporary"
-"56975","Myrtle Warbler","contemporary","2015","New York","Mecklenburg, 2.6 km NNE on Route 228",42.463,-76.707,"YRWA","YRWA_contemporary"
-"570","Blackpoll Warbler","contemporary","2008","New York","North Elba - Adirondack Area",44.243,-73.958,"BLPW","BLPW_contemporary"
-"571","Blackpoll Warbler","contemporary","2008","New York","North Elba - Adirondack Area",44.243,-73.958,"BLPW","BLPW_contemporary"
-"572","Blackpoll Warbler","contemporary","2008","New York","North Elba - Adirondack Area",44.243,-73.958,"BLPW","BLPW_contemporary"
-"575","Blackpoll Warbler","contemporary","2008","New York","North Elba - Adirondack Area",44.243,-73.958,"BLPW","BLPW_contemporary"
-"578","Blackpoll Warbler","contemporary","2008","New York","North Hudson - Adirondack Area",43.949,-73.73,"BLPW","BLPW_contemporary"
-"581","Blackpoll Warbler","contemporary","2008","New York","North Hudson - Adirondack Area",43.949,-73.73,"BLPW","BLPW_contemporary"
-"589","Blackpoll Warbler","contemporary","2008","New York","Greene County - Catskills",42.271,-74.212,"BLPW","BLPW_contemporary"
-"590","Blackpoll Warbler","contemporary","2008","New York","Greene County - Catskills",42.271,-74.212,"BLPW","BLPW_contemporary"
-"592","Blackpoll Warbler","contemporary","2008","New York","Greene County - Catskills",42.271,-74.212,"BLPW","BLPW_contemporary"
-"598","Blackpoll Warbler","contemporary","2008","New York","Keene - Adirondack Area",44.255,-73.792,"BLPW","BLPW_contemporary"
-"611","Black-throated Blue Warbler","historic","1908","North Carolina","?",35.061,-83.451,"BTBW","BTBW_historic"
-"612","Black-throated Blue Warbler","historic","1908","North Carolina","?",35.061,-83.451,"BTBW","BTBW_historic"
-"613","Black-throated Blue Warbler","historic","1908","North Carolina","?",35.061,-83.451,"BTBW","BTBW_historic"
-"615","Black-throated Blue Warbler","historic","1907","North Carolina","?",35.061,-83.451,"BTBW","BTBW_historic"
-"616","Black-throated Blue Warbler","historic","1908","North Carolina","?",35.061,-83.451,"BTBW","BTBW_historic"
-"623","Black-throated Blue Warbler","historic","1907","North Carolina","?",35.061,-83.451,"BTBW","BTBW_historic"
-"624","Black-throated Blue Warbler","historic","1941","North Carolina","?",35.061,-83.451,"BTBW","BTBW_historic"
-"626","Black-throated Blue Warbler","historic","1916","North Carolina","?",35.061,-83.451,"BTBW","BTBW_historic"
-"806","Blackpoll Warbler","contemporary","2000","Quebec","Mine Madeleine, Gaspesie",48.971,-66.005,"BLPW","BLPW_contemporary"
-"8064","Prairie Warbler","historic","1914","Arkansas","Winslow",35.802,-94.127,"PRAW","PRAW_historic"
-"8065","Prairie Warbler","historic","1914","Arkansas","Winslow",35.802,-94.127,"PRAW","PRAW_historic"
-"807","Blackpoll Warbler","contemporary","2000","Quebec","Mine Madeleine, Gaspesie",48.971,-66.005,"BLPW","BLPW_contemporary"
-"808","Blackpoll Warbler","contemporary","2000","Quebec","Mine Madeleine, Gaspesie",48.971,-66.005,"BLPW","BLPW_contemporary"
-"809","Blackpoll Warbler","contemporary","2000","Quebec","Mine Madeleine, Gaspesie",48.971,-66.005,"BLPW","BLPW_contemporary"
-"810","Blackpoll Warbler","contemporary","2000","Quebec","Mine Madeleine, Gaspesie",48.971,-66.005,"BLPW","BLPW_contemporary"
-"811","Blackpoll Warbler","contemporary","2000","Quebec","Mine Madeleine, Gaspesie",48.971,-66.005,"BLPW","BLPW_contemporary"
-"812","Blackpoll Warbler","contemporary","2000","Quebec","Mine Madeleine, Gaspesie",48.971,-66.005,"BLPW","BLPW_contemporary"
-"814","Blackpoll Warbler","contemporary","2000","Quebec","Mine Madeleine, Gaspesie",48.971,-66.005,"BLPW","BLPW_contemporary"
-"815","Blackpoll Warbler","contemporary","2000","Quebec","Mine Madeleine, Gaspesie",48.971,-66.005,"BLPW","BLPW_contemporary"
-"816","Blackpoll Warbler","contemporary","2000","Quebec","Mine Madeleine, Gaspesie",48.971,-66.005,"BLPW","BLPW_contemporary"
-"817","Blackpoll Warbler","contemporary","2000","Quebec","Mine Madeleine, Gaspesie",48.971,-66.005,"BLPW","BLPW_contemporary"
-"818","Blackpoll Warbler","contemporary","2000","Quebec","Mine Madeleine, Gaspesie",48.971,-66.005,"BLPW","BLPW_contemporary"
-"819","Blackpoll Warbler","contemporary","2000","Quebec","Mine Madeleine, Gaspesie",48.971,-66.005,"BLPW","BLPW_contemporary"
-"820","Blackpoll Warbler","contemporary","2000","Quebec","Mine Madeleine, Gaspesie",48.971,-66.005,"BLPW","BLPW_contemporary"
-"873","Blackpoll Warbler","contemporary","2011","New York","Greene County - Catskills",42.271,-74.212,"BLPW","BLPW_contemporary"
-"906","Blackpoll Warbler","contemporary","2009","New York","Keene - Adirondack Area",44.255,-73.792,"BLPW","BLPW_contemporary"
-"908","Blackpoll Warbler","contemporary","2009","New York","North Elba - Adirondack Area",44.243,-73.958,"BLPW","BLPW_contemporary"
-"909","Blackpoll Warbler","contemporary","2009","New York","North Elba - Adirondack Area",44.243,-73.958,"BLPW","BLPW_contemporary"
-"910","Blackpoll Warbler","contemporary","2009","New York","North Elba - Adirondack Area",44.243,-73.958,"BLPW","BLPW_contemporary"
-"917","Blackpoll Warbler","contemporary","2009","New York","Greene County - Catskills",42.271,-74.212,"BLPW","BLPW_contemporary"
-"919","Blackpoll Warbler","contemporary","2009","New York","Greene County - Catskills",42.271,-74.212,"BLPW","BLPW_contemporary"
-"932","Blackpoll Warbler","contemporary","2009","New York","Greene County - Catskills",42.271,-74.212,"BLPW","BLPW_contemporary"
-"933","Blackpoll Warbler","contemporary","2009","New York","North Hudson - Adirondack Area",43.949,-73.73,"BLPW","BLPW_contemporary"
-"934","Blackpoll Warbler","contemporary","2009","New York","North Hudson - Adirondack Area",43.949,-73.73,"BLPW","BLPW_contemporary"
-"938","Blackpoll Warbler","contemporary","2009","New York","North Hudson - Adirondack Area",43.949,-73.73,"BLPW","BLPW_contemporary"
-"940","Blackpoll Warbler","contemporary","2009","New York","North Hudson - Adirondack Area",43.949,-73.73,"BLPW","BLPW_contemporary"
-"944","Blackpoll Warbler","contemporary","2009","New York","North Hudson - Adirondack Area",43.949,-73.73,"BLPW","BLPW_contemporary"
-"945","Blackpoll Warbler","contemporary","2009","New York","North Hudson - Adirondack Area",43.949,-73.73,"BLPW","BLPW_contemporary"
-"946","Blackpoll Warbler","contemporary","2009","New York","North Hudson - Adirondack Area",43.949,-73.73,"BLPW","BLPW_contemporary"
-"B8601","Prairie Warbler","historic","1891","Massachusetts","Melrose",42.457,-71.057,"PRAW","PRAW_historic"
-"BW1910","Black-throated Blue Warbler","contemporary","2001","New York","?",41.991,-74.32,"BTBW","BTBW_contemporary"
-"BW1911","Black-throated Blue Warbler","contemporary","2001","New York","?",41.991,-74.32,"BTBW","BTBW_contemporary"
-"BW1912","Black-throated Blue Warbler","contemporary","2001","New York","?",41.991,-74.32,"BTBW","BTBW_contemporary"
-"BW1913","Black-throated Blue Warbler","contemporary","2001","New York","?",41.991,-74.32,"BTBW","BTBW_contemporary"
-"BW1914","Black-throated Blue Warbler","contemporary","2001","New York","?",41.991,-74.32,"BTBW","BTBW_contemporary"
-"BW1915","Black-throated Blue Warbler","contemporary","2001","New York","?",41.991,-74.32,"BTBW","BTBW_contemporary"
-"BW1916","Black-throated Blue Warbler","contemporary","2001","New York","?",41.991,-74.32,"BTBW","BTBW_contemporary"
-"BW1918","Black-throated Blue Warbler","contemporary","2001","New York","?",41.991,-74.32,"BTBW","BTBW_contemporary"
-"bwnc002","Black-throated Blue Warbler","contemporary","2002","North Carolina","Coweeta Experimental Forest",35.061,-83.451,"BTBW","BTBW_contemporary"
-"bwnc004","Black-throated Blue Warbler","contemporary","2002","North Carolina","Coweeta Experimental Forest",35.061,-83.451,"BTBW","BTBW_contemporary"
-"bwnc14","Black-throated Blue Warbler","contemporary","2002","North Carolina","?",35.061,-83.451,"BTBW","BTBW_contemporary"
-"bwnc16","Black-throated Blue Warbler","contemporary","2002","North Carolina","?",35.061,-83.451,"BTBW","BTBW_contemporary"
-"bwnc17","Black-throated Blue Warbler","contemporary","2002","North Carolina","?",35.061,-83.451,"BTBW","BTBW_contemporary"
-"bwnc25","Black-throated Blue Warbler","contemporary","2002","North Carolina","?",35.061,-83.451,"BTBW","BTBW_contemporary"
-"bwnc28","Black-throated Blue Warbler","contemporary","2002","North Carolina","?",35.061,-83.451,"BTBW","BTBW_contemporary"
-"bwnc30","Black-throated Blue Warbler","contemporary","2002","North Carolina","?",35.061,-83.451,"BTBW","BTBW_contemporary"
-"bwnc31","Black-throated Blue Warbler","contemporary","2002","North Carolina","Coweeta Experimental Forest",35.061,-83.451,"BTBW","BTBW_contemporary"
-"bwnc32","Black-throated Blue Warbler","contemporary","2002","North Carolina","Coweeta Experimental Forest",35.061,-83.451,"BTBW","BTBW_contemporary"
-"bwnc33","Black-throated Blue Warbler","contemporary","2002","North Carolina","Coweeta Experimental Forest",35.061,-83.451,"BTBW","BTBW_contemporary"
-"bwnc5","Black-throated Blue Warbler","contemporary","2002","North Carolina","?",35.061,-83.451,"BTBW","BTBW_contemporary"
-"bwnc7","Black-throated Blue Warbler","contemporary","2002","North Carolina","?",35.061,-83.451,"BTBW","BTBW_contemporary"
-"bwnc8","Black-throated Blue Warbler","contemporary","2002","North Carolina","?",35.061,-83.451,"BTBW","BTBW_contemporary"
-"MI01","Black-throated Blue Warbler","contemporary","2001","Michigan","?",45.975,-86.4834,"BTBW","BTBW_contemporary"
-"MI03","Black-throated Blue Warbler","contemporary","2001","Michigan","?",45.975,-86.4834,"BTBW","BTBW_contemporary"
-"MI04","Black-throated Blue Warbler","contemporary","2001","Michigan","?",45.975,-86.4834,"BTBW","BTBW_contemporary"
-"MI05","Black-throated Blue Warbler","contemporary","2001","Michigan","?",45.975,-86.4834,"BTBW","BTBW_contemporary"
-"MI06","Black-throated Blue Warbler","contemporary","2001","Michigan","?",45.975,-86.4834,"BTBW","BTBW_contemporary"
-"MI07","Black-throated Blue Warbler","contemporary","2001","Michigan","?",45.975,-86.4834,"BTBW","BTBW_contemporary"
-"MI08","Black-throated Blue Warbler","contemporary","2001","Michigan","?",45.975,-86.4834,"BTBW","BTBW_contemporary"
-"MI09","Black-throated Blue Warbler","contemporary","2001","Michigan","?",45.975,-86.4834,"BTBW","BTBW_contemporary"
-"MI10","Black-throated Blue Warbler","contemporary","2001","Michigan","?",45.975,-86.4834,"BTBW","BTBW_contemporary"
-"MI11","Black-throated Blue Warbler","contemporary","2001","Michigan","?",45.975,-86.4834,"BTBW","BTBW_contemporary"
-"MI12","Black-throated Blue Warbler","contemporary","2001","Michigan","?",45.975,-86.4834,"BTBW","BTBW_contemporary"
-"MI13","Black-throated Blue Warbler","contemporary","2001","Michigan","?",45.975,-86.4834,"BTBW","BTBW_contemporary"
-"MI14","Black-throated Blue Warbler","contemporary","2001","Michigan","?",45.975,-86.4834,"BTBW","BTBW_contemporary"
-"MI15","Black-throated Blue Warbler","contemporary","2001","Michigan","?",45.975,-86.4834,"BTBW","BTBW_contemporary"
-"MI16","Black-throated Blue Warbler","contemporary","2001","Michigan","?",45.975,-86.4834,"BTBW","BTBW_contemporary"
-"MI17","Black-throated Blue Warbler","contemporary","2001","Michigan","?",45.975,-86.4834,"BTBW","BTBW_contemporary"
-"MI18","Black-throated Blue Warbler","contemporary","2001","Michigan","?",45.975,-86.4834,"BTBW","BTBW_contemporary"
-"MI19","Black-throated Blue Warbler","contemporary","2001","Michigan","?",45.975,-86.4834,"BTBW","BTBW_contemporary"
-"P100048","Blackpoll Warbler","historic","1926","Quebec","Hudson Bay",51.701,-78.742,"BLPW","BLPW_historic"
-"P100061","Blackpoll Warbler","historic","1926","Quebec","Lac Guillaume Delisle",56.118,-75.887,"BLPW","BLPW_historic"
-"P100283","Blackpoll Warbler","historic","1926","Quebec","Hudson Bay",51.701,-78.742,"BLPW","BLPW_historic"
-"P100300","Blackpoll Warbler","historic","1926","Quebec","Lac Guillaume Delisle",56.118,-75.887,"BLPW","BLPW_historic"
-"P135709","Blackpoll Warbler","historic","1953","New York","Slide Mountain, Catskill Mountains",41.997,-74.385,"BLPW","BLPW_historic"
-"P135710","Blackpoll Warbler","historic","1953","New York","Slide Mountain, Catskill Mountains",41.997,-74.385,"BLPW","BLPW_historic"
-"P48657","Blackpoll Warbler","historic","1914","Quebec","Broadback River",51.176,-77.099,"BLPW","BLPW_historic"
-"P48707","Blackpoll Warbler","historic","1914","Quebec","Hudson Bay",51.701,-78.742,"BLPW","BLPW_historic"
-"P49026","Blackpoll Warbler","historic","1914","Quebec","Hudson Bay",51.701,-78.742,"BLPW","BLPW_historic"
-"P57217","Blackpoll Warbler","historic","1917","Quebec","Riviere Sainte Marguerite",48.255,-69.861,"BLPW","BLPW_historic"
-"P57220","Blackpoll Warbler","historic","1917","Quebec","Riviere Sainte Marguerite",48.255,-69.861,"BLPW","BLPW_historic"
-"PRAW10","Prairie Warbler","contemporary","2020","Arkansas","35.535700, -91.826733",35.5357,-91.826733,"PRAW","PRAW_contemporary"
-"PRAW11","Prairie Warbler","contemporary","2020","Arkansas","35.535700, -91.826733",35.5357,-91.826733,"PRAW","PRAW_contemporary"
-"PRAW13","Prairie Warbler","contemporary","2020","Arkansas","35.535700, -91.826733",35.5357,-91.826733,"PRAW","PRAW_contemporary"
-"PRAW14","Prairie Warbler","contemporary","2020","Arkansas","35.535700, -91.826733",35.5357,-91.826733,"PRAW","PRAW_contemporary"
-"PRAW15","Prairie Warbler","contemporary","2020","Arkansas","35.535700, -91.826733",35.5357,-91.826733,"PRAW","PRAW_contemporary"
-"PRAW16","Prairie Warbler","contemporary","2020","Arkansas","35.535700, -91.826733",35.5357,-91.826733,"PRAW","PRAW_contemporary"
-"PRAW17","Prairie Warbler","contemporary","2020","Arkansas","35.535700, -91.826733",35.5357,-91.826733,"PRAW","PRAW_contemporary"
-"PRAW18","Prairie Warbler","contemporary","2020","Arkansas","35.535700, -91.826733",35.5357,-91.826733,"PRAW","PRAW_contemporary"
-"PRAW19","Prairie Warbler","contemporary","2020","Arkansas","35.535700, -91.826733",35.5357,-91.826733,"PRAW","PRAW_contemporary"
-"PRAW20","Prairie Warbler","contemporary","2020","Arkansas","35.535700, -91.826733",35.5357,-91.826733,"PRAW","PRAW_contemporary"
-"PRAW21","Prairie Warbler","contemporary","2020","Arkansas","35.535700, -91.826733",35.5357,-91.826733,"PRAW","PRAW_contemporary"
-"PRAW22","Prairie Warbler","contemporary","2020","Arkansas","35.535700, -91.826733",35.5357,-91.826733,"PRAW","PRAW_contemporary"
-"PRAW23","Prairie Warbler","contemporary","2020","Arkansas","35.535700, -91.826733",35.5357,-91.826733,"PRAW","PRAW_contemporary"
-"PRAW24","Prairie Warbler","contemporary","2020","Arkansas","35.535700, -91.826733",35.5357,-91.826733,"PRAW","PRAW_contemporary"
-"PRAW25","Prairie Warbler","contemporary","2020","Arkansas","35.535700, -91.826733",35.5357,-91.826733,"PRAW","PRAW_contemporary"
-"PRAW26","Prairie Warbler","contemporary","2020","Arkansas","35.535700, -91.826733",35.5357,-91.826733,"PRAW","PRAW_contemporary"
-"PRAW27","Prairie Warbler","contemporary","2020","Arkansas","35.535700, -91.826733",35.5357,-91.826733,"PRAW","PRAW_contemporary"
-"PRAW28","Prairie Warbler","contemporary","2020","Arkansas","35.535700, -91.826733",35.5357,-91.826733,"PRAW","PRAW_contemporary"
-"PRAW29","Prairie Warbler","contemporary","2020","Arkansas","35.535700, -91.826733",35.5357,-91.826733,"PRAW","PRAW_contemporary"
-"PRAW30","Prairie Warbler","contemporary","2020","Arkansas","35.535700, -91.826733",35.5357,-91.826733,"PRAW","PRAW_contemporary"
-"QF09T03","Myrtle Warbler","contemporary","2017","New York","Adirondacks - Moose River",43.622,-74.97,"YRWA","YRWA_contemporary"
-"QF10T03","Myrtle Warbler","contemporary","2017","New York","Adirondacks - Moose River",43.622,-74.97,"YRWA","YRWA_contemporary"
-"QF11T02","Myrtle Warbler","contemporary","2017","New York","Adirondacks - Sagamore",43.765,-74.626,"YRWA","YRWA_contemporary"
-"QF11T05","Myrtle Warbler","contemporary","2017","New York","Adirondacks - Sagamore",43.765,-74.626,"YRWA","YRWA_contemporary"
-"QF11T06","Myrtle Warbler","contemporary","2017","New York","Adirondacks - Sagamore",43.765,-74.626,"YRWA","YRWA_contemporary"
-"QF11T07","Myrtle Warbler","contemporary","2017","New York","Adirondacks - Sagamore",43.765,-74.626,"YRWA","YRWA_contemporary"
-"RF06T06","Myrtle Warbler","contemporary","2018","New York","Adirondacks - Moose River",43.622,-74.97,"YRWA","YRWA_contemporary"
-"RF06T07","Myrtle Warbler","contemporary","2018","New York","Adirondacks - Moose River",43.622,-74.97,"YRWA","YRWA_contemporary"
-"RF06T15","Myrtle Warbler","contemporary","2018","New York","Adirondacks - Moose River",43.622,-74.97,"YRWA","YRWA_contemporary"
-"RF07T17","Myrtle Warbler","contemporary","2018","New York","Adirondacks - Moose River",43.622,-74.97,"YRWA","YRWA_contemporary"
-"RF08T02","Myrtle Warbler","contemporary","2018","New York","Adirondacks - Moose River",43.622,-74.97,"YRWA","YRWA_contemporary"
-"SF17T02","Myrtle Warbler","contemporary","2019","New York","Adirondacks - Moose River",43.622,-74.97,"YRWA","YRWA_contemporary"
-"SF17T10","Myrtle Warbler","contemporary","2019","New York","Adirondacks - Moose River",43.622,-74.97,"YRWA","YRWA_contemporary"
-"SF17T11","Myrtle Warbler","contemporary","2019","New York","Adirondacks - Moose River",43.622,-74.97,"YRWA","YRWA_contemporary"
-"SF17T13","Myrtle Warbler","contemporary","2019","New York","Adirondacks - Moose River",43.622,-74.97,"YRWA","YRWA_contemporary"
-"SF17T24","Myrtle Warbler","contemporary","2019","New York","Adirondacks - Moose River",43.622,-74.97,"YRWA","YRWA_contemporary"
-"TF18T06","Myrtle Warbler","contemporary","2020","New York","Adirondacks - Moose River",43.622,-74.97,"YRWA","YRWA_contemporary"
-"TF18T07","Myrtle Warbler","contemporary","2020","New York","Adirondacks - Moose River",43.622,-74.97,"YRWA","YRWA_contemporary"
-"TF18T11","Myrtle Warbler","contemporary","2020","New York","Adirondacks - Moose River",43.622,-74.97,"YRWA","YRWA_contemporary"
-"TF18T14","Myrtle Warbler","contemporary","2020","New York","Adirondacks - Moose River",43.622,-74.97,"YRWA","YRWA_contemporary"
-"TF18T16","Myrtle Warbler","contemporary","2020","New York","Adirondacks - Moose River",43.622,-74.97,"YRWA","YRWA_contemporary"
-"zo-10976","Myrtle Warbler","contemporary","2009","New York","Blackhead Mountain, elev. 3900 ft., 42°16.189'N, 74°06.483' W",42.26995,-74.1088,"YRWA","YRWA_contemporary"
-"zo-10977","Myrtle Warbler","contemporary","2009","New York","Blackhead Mountain, elev. 3900 ft., 42°16.189'N, 74°06.483' W",42.26995,-74.1088,"YRWA","YRWA_contemporary"
-"zo-11082","Myrtle Warbler","contemporary","2010","New York","Blackhead Mountain, elev. 3900 ft., 42°16.189'N, 74°06.483' W",42.26995,-74.1088,"YRWA","YRWA_contemporary"
-"zo-11140","Myrtle Warbler","contemporary","2010","New York","Twin Mountain, 3622 ft., 42°07.532'N, 74°07.749'W",42.125533,-74.12915,"YRWA","YRWA_contemporary"
-"zo-11236","Myrtle Warbler","contemporary","2011","New York","Blackhead Mountain, elev. 3900 ft., 42°16.189'N, 74°06.483' W",42.26995,-74.1088,"YRWA","YRWA_contemporary"
-"zo-11237","Myrtle Warbler","contemporary","2011","New York","Blackhead Mountain, elev. 3900 ft., 42°16.189'N, 74°06.483' W",42.26995,-74.1088,"YRWA","YRWA_contemporary"
-"zo-11238","Myrtle Warbler","contemporary","2011","New York","Blackhead Mountain, elev. 3900 ft., 42°16.189'N, 74°06.483' W",42.26995,-74.1088,"YRWA","YRWA_contemporary"
-"zo-11279","Myrtle Warbler","contemporary","2011","New York","Blackhead Mountain, elev. 3850 ft., 42°16.197'N, 74°06.528' W",42.26995,-74.1088,"YRWA","YRWA_contemporary"
-"zo-11282","Myrtle Warbler","contemporary","2011","New York","Blackdome Mountain, elev. 3910 ft., 42°16.219'N, 74°07.186' W",42.270306,-74.119778,"YRWA","YRWA_contemporary"
-"zo-15348","Blackpoll Warbler","contemporary","2010","Vermont","Mount Mansfield",44.543,-72.814,"BLPW","BLPW_contemporary"
-"zo-15349","Blackpoll Warbler","contemporary","2010","Vermont","Mount Mansfield",44.543,-72.814,"BLPW","BLPW_contemporary"
-"zo-15350","Blackpoll Warbler","contemporary","2010","Vermont","Mount Mansfield",44.543,-72.814,"BLPW","BLPW_contemporary"
-"zo-15351","Blackpoll Warbler","contemporary","2010","Vermont","Mount Mansfield",44.543,-72.814,"BLPW","BLPW_contemporary"
-"zo-15354","Blackpoll Warbler","contemporary","2010","Vermont","Mount Mansfield",44.543,-72.814,"BLPW","BLPW_contemporary"
-"zo-19372","Blackpoll Warbler","contemporary","2016","Vermont","Mount Mansfield",44.543,-72.814,"BLPW","BLPW_contemporary"
-"zo-19376","Blackpoll Warbler","contemporary","2016","Vermont","Mount Mansfield",44.543,-72.814,"BLPW","BLPW_contemporary"
-"zo-5472","Myrtle Warbler","historic","1954","New York","Slide Mountain, elev. 4200 ft.",41.997,-74.385,"YRWA","YRWA_historic"
-"zo-5473","Myrtle Warbler","historic","1954","New York","Slide Mountain, elev. 4200 ft.",41.997,-74.385,"YRWA","YRWA_historic"
-"zo-5474","Myrtle Warbler","historic","1954","New York","Slide Mountain, elev. 4200 ft.",41.997,-74.385,"YRWA","YRWA_historic"
-"zo-5475","Myrtle Warbler","historic","1954","New York","Slide Mountain, elev. 4200 ft.",41.997,-74.385,"YRWA","YRWA_historic"
-"zo-5476","Myrtle Warbler","historic","1954","New York","Whiteface Mountain, elev. 3800 ft.",44.365,-73.904,"YRWA","YRWA_historic"
-"zo-5477","Myrtle Warbler","historic","1954","New York","Slide Mountain, elev. 4200 ft.",41.997,-74.385,"YRWA","YRWA_historic"
-"zo-5480","Myrtle Warbler","historic","1955","New York","Tioga Point, Raquette Lake - Adirondack Area",43.844,-74.634,"YRWA","YRWA_historic"
-"zo-5481","Myrtle Warbler","historic","1955","New York","Slide Mountain, elev. 4200 ft.",41.997,-74.385,"YRWA","YRWA_historic"
-"zo-5558","Blackpoll Warbler","historic","1954","New York","Slide Mountain, elev. 4200 ft.",41.997,-74.385,"BLPW","BLPW_historic"
-"zo-5559","Blackpoll Warbler","historic","1954","New York","Slide Mountain, elev. 4200 ft.",41.997,-74.385,"BLPW","BLPW_historic"
+SpecimenID,Species,SamplingCategory,YearSampled,State,SiteInfo,lat,lon,Sp,Species_samplingcategory
+101994,Prairie Warbler,historic,1900,Massachusetts,West Quincy,42.235,-71.046,PRAW,PRAW_historic
+10693,Blackpoll Warbler,contemporary,2008,New York,"Blackhead Mountain, Greene County",42.266,-74.104,BLPW,BLPW_contemporary
+10765,Blackpoll Warbler,contemporary,2008,New York,"Blackhead Mountain, Greene County",42.266,-74.104,BLPW,BLPW_contemporary
+10921,Myrtle Warbler,historic,1941,New York,Ithaca,42.448,-76.497,YRWA,YRWA_historic
+10922,Myrtle Warbler,historic,1941,New York,Ithaca,42.448,-76.497,YRWA,YRWA_historic
+10923,Myrtle Warbler,historic,1941,New York,Ithaca,42.448,-76.497,YRWA,YRWA_historic
+10924,Myrtle Warbler,historic,1941,New York,Ithaca,42.448,-76.497,YRWA,YRWA_historic
+10989,Blackpoll Warbler,contemporary,2009,New York,"Blackhead Mountain, Greene County",42.266,-74.104,BLPW,BLPW_contemporary
+11065,Black-throated Blue Warbler,historic,1888,Michigan,Jackson County,42.315,-84.242,BTBW,BTBW_historic
+11066,Black-throated Blue Warbler,historic,1888,Michigan,Jackson County,42.315,-84.242,BTBW,BTBW_historic
+11077,Blackpoll Warbler,contemporary,2010,New York,"Blackhead Mountain, Greene County",42.266,-74.104,BLPW,BLPW_contemporary
+11078,Blackpoll Warbler,contemporary,2010,New York,"Blackhead Mountain, Greene County",42.266,-74.104,BLPW,BLPW_contemporary
+11079,Blackpoll Warbler,contemporary,2010,New York,"Blackhead Mountain, Greene County",42.266,-74.104,BLPW,BLPW_contemporary
+11089,Blackpoll Warbler,contemporary,2010,New York,"Blackhead Mountain, Greene County",42.266,-74.104,BLPW,BLPW_contemporary
+1116,Blackpoll Warbler,contemporary,2012,Vermont,Mount Mansfield,44.543,-72.814,BLPW,BLPW_contemporary
+1118,Myrtle Warbler,contemporary,2012,Vermont,Lamoille - Mount Mansfield,44.543,-72.814,YRWA,YRWA_contemporary
+1120,Myrtle Warbler,contemporary,2012,Vermont,Lamoille - Mount Mansfield,44.543,-72.814,YRWA,YRWA_contemporary
+1121,Myrtle Warbler,contemporary,2012,Vermont,Lamoille - Mount Mansfield,44.543,-72.814,YRWA,YRWA_contemporary
+1124,Myrtle Warbler,contemporary,2012,Vermont,Lamoille - Mount Mansfield,44.543,-72.814,YRWA,YRWA_contemporary
+1136,Myrtle Warbler,contemporary,2012,Vermont,Lamoille - Mount Mansfield,44.543,-72.814,YRWA,YRWA_contemporary
+1138,Myrtle Warbler,contemporary,2012,Vermont,Lamoille - Mount Mansfield,44.543,-72.814,YRWA,YRWA_contemporary
+1143,Blackpoll Warbler,contemporary,2012,Vermont,Mount Mansfield,44.543,-72.814,BLPW,BLPW_contemporary
+1144,Myrtle Warbler,contemporary,2012,Vermont,Lamoille - Mount Mansfield,44.543,-72.814,YRWA,YRWA_contemporary
+1148,Myrtle Warbler,contemporary,2012,Vermont,Lamoille - Mount Mansfield,44.543,-72.814,YRWA,YRWA_contemporary
+1149,Blackpoll Warbler,contemporary,2012,Vermont,Mount Mansfield,44.543,-72.814,BLPW,BLPW_contemporary
+1151,Myrtle Warbler,contemporary,2012,Vermont,Lamoille - Mount Mansfield,44.543,-72.814,YRWA,YRWA_contemporary
+1152,Myrtle Warbler,contemporary,2012,Vermont,Lamoille - Mount Mansfield,44.543,-72.814,YRWA,YRWA_contemporary
+127948,Myrtle Warbler,historic,1924,Vermont,North Thetford,43.844,-72.186,YRWA,YRWA_historic
+127950,Myrtle Warbler,historic,1924,Vermont,Killington Peak,43.604,-72.819,YRWA,YRWA_historic
+127951,Myrtle Warbler,historic,1927,Vermont,Killington Peak,43.604,-72.819,YRWA,YRWA_historic
+128080,Prairie Warbler,historic,1920,Massachusetts,Harvard - Worcester County,42.395,-71.915,PRAW,PRAW_historic
+128081,Prairie Warbler,historic,1922,Massachusetts,Harvard - Worcester County,42.395,-71.915,PRAW,PRAW_historic
+128084,Prairie Warbler,historic,1926,Massachusetts,Harvard - Worcester County,42.395,-71.915,PRAW,PRAW_historic
+128086,Prairie Warbler,historic,1913,Massachusetts,Harvard - Worcester County,42.395,-71.915,PRAW,PRAW_historic
+15625,Myrtle Warbler,historic,1942,New York,Panther Gorge - Adirondack Area,44.093,-73.915,YRWA,YRWA_historic
+16246,Black-throated Blue Warbler,historic,1909,New York,Ithaca,42.448,-76.497,BTBW,BTBW_historic
+16255,Black-throated Blue Warbler,historic,1900,New York,Scarborough,41.136,-73.864,BTBW,BTBW_historic
+16256,Black-throated Blue Warbler,historic,1894,New York,Potsdam,44.657,-74.978,BTBW,BTBW_historic
+16269,Myrtle Warbler,historic,1900,New York,Ithaca,42.448,-76.497,YRWA,YRWA_historic
+16270,Myrtle Warbler,historic,1902,New York,Ithaca,42.448,-76.497,YRWA,YRWA_historic
+16272,Myrtle Warbler,historic,1909,New York,Ithaca,42.448,-76.497,YRWA,YRWA_historic
+16273,Myrtle Warbler,historic,1923,New York,Ithaca,42.448,-76.497,YRWA,YRWA_historic
+16274,Myrtle Warbler,historic,1924,New York,Ithaca,42.448,-76.497,YRWA,YRWA_historic
+16275,Myrtle Warbler,historic,1923,New York,Ithaca,42.448,-76.497,YRWA,YRWA_historic
+16277,Myrtle Warbler,historic,1930,New York,Ithaca,42.448,-76.497,YRWA,YRWA_historic
+16278,Myrtle Warbler,historic,1930,New York,Ithaca,42.448,-76.497,YRWA,YRWA_historic
+16281,Myrtle Warbler,historic,1939,New York,Ithaca,42.448,-76.497,YRWA,YRWA_historic
+16283,Myrtle Warbler,historic,1909,New York,Ithaca,42.448,-76.497,YRWA,YRWA_historic
+16288,Myrtle Warbler,historic,1940,New York,Ithaca,42.448,-76.497,YRWA,YRWA_historic
+16289,Myrtle Warbler,historic,1940,New York,Ithaca,42.448,-76.497,YRWA,YRWA_historic
+16290,Myrtle Warbler,historic,1899,New York,"Harrietstown Township, Wawbeek - Adirondack Area",44.253,-74.339,YRWA,YRWA_historic
+165394,Prairie Warbler,historic,1879,Massachusetts,Swampscott,42.478,-70.909,PRAW,PRAW_historic
+165395,Prairie Warbler,historic,1879,Massachusetts,Swampscott,42.478,-70.909,PRAW,PRAW_historic
+165397,Prairie Warbler,historic,1879,Massachusetts,Swampscott,42.478,-70.909,PRAW,PRAW_historic
+1670,Blackpoll Warbler,contemporary,2010,Vermont,Mount Mansfield,44.543,-72.814,BLPW,BLPW_contemporary
+1671,Blackpoll Warbler,contemporary,2010,Vermont,Mount Mansfield,44.543,-72.814,BLPW,BLPW_contemporary
+1672,Blackpoll Warbler,contemporary,2010,Vermont,Mount Mansfield,44.543,-72.814,BLPW,BLPW_contemporary
+1673,Blackpoll Warbler,contemporary,2010,Vermont,Mount Mansfield,44.543,-72.814,BLPW,BLPW_contemporary
+1674,Blackpoll Warbler,contemporary,2010,Vermont,Mount Mansfield,44.543,-72.814,BLPW,BLPW_contemporary
+1675,Blackpoll Warbler,contemporary,2010,Vermont,Mount Mansfield,44.543,-72.814,BLPW,BLPW_contemporary
+1676,Blackpoll Warbler,contemporary,2010,Vermont,Mount Mansfield,44.543,-72.814,BLPW,BLPW_contemporary
+1677,Blackpoll Warbler,contemporary,2010,Vermont,Mount Mansfield,44.543,-72.814,BLPW,BLPW_contemporary
+1679,Blackpoll Warbler,contemporary,2010,Vermont,Mount Mansfield,44.543,-72.814,BLPW,BLPW_contemporary
+1680,Blackpoll Warbler,contemporary,2010,Vermont,Mount Mansfield,44.543,-72.814,BLPW,BLPW_contemporary
+17240,Blackpoll Warbler,historic,1896,New York,Cayuga County - Cayuga,42.915,-76.716,BLPW,BLPW_historic
+17304,Prairie Warbler,historic,1888,Arkansas,Cleburne County,35.556,-92.012,PRAW,PRAW_historic
+17305,Prairie Warbler,historic,1888,Arkansas,Cleburne County,35.556,-92.012,PRAW,PRAW_historic
+17306,Prairie Warbler,historic,1888,Arkansas,Cleburne County,35.556,-92.012,PRAW,PRAW_historic
+17314,Prairie Warbler,historic,1872,Massachusetts,Norfolk County - Needham,42.279,-71.196,PRAW,PRAW_historic
+17316,Prairie Warbler,historic,1888,Arkansas,Cleburne County,35.556,-92.012,PRAW,PRAW_historic
+17317,Prairie Warbler,historic,1912,Massachusetts,Bristol county - Taunton,41.887,-71.088,PRAW,PRAW_historic
+17323,Prairie Warbler,historic,1879,Massachusetts,Barnstable County - Sandwich ,41.74,-70.506,PRAW,PRAW_historic
+19350,Prairie Warbler,historic,1888,Arkansas,Cleburne County,35.556,-92.012,PRAW,PRAW_historic
+196,Prairie Warbler,contemporary,2012,Massachusetts,Montague area,42.544,-72.514,PRAW,PRAW_contemporary
+202182,Prairie Warbler,historic,1877,Massachusetts,Middlesex,42.541,-71.379,PRAW,PRAW_historic
+21308,Black-throated Blue Warbler,historic,1947,New York,Ithaca,42.448,-76.497,BTBW,BTBW_historic
+21361,Myrtle Warbler,historic,1947,New York,Ithaca,42.448,-76.497,YRWA,YRWA_historic
+218495,Black-throated Blue Warbler,historic,1888,Michigan,?,45.425,-86.4834,BTBW,BTBW_historic
+218496,Black-throated Blue Warbler,historic,1888,Michigan,?,45.425,-86.4834,BTBW,BTBW_historic
+218498,Black-throated Blue Warbler,historic,1888,Michigan,?,45.425,-86.4834,BTBW,BTBW_historic
+218499,Black-throated Blue Warbler,historic,1888,Michigan,?,45.425,-86.4834,BTBW,BTBW_historic
+23489,Black-throated Blue Warbler,historic,1952,New York,Ithaca,41.991,-74.32,BTBW,BTBW_historic
+23848,Black-throated Blue Warbler,historic,1950,New York,Bear Spring Mountain,42.144,-75.121,BTBW,BTBW_historic
+23849,Black-throated Blue Warbler,historic,1950,New York,Bear Spring Mountain,42.144,-75.121,BTBW,BTBW_historic
+23850,Black-throated Blue Warbler,historic,1950,New York,"Newcomb, Goodnow Mountain, elevation 2000 feet.",43.969,-74.164,BTBW,BTBW_historic
+23854,Myrtle Warbler,historic,1952,New York,Ithaca,42.448,-76.497,YRWA,YRWA_historic
+23858,Myrtle Warbler,historic,1950,New York,Newcomb - Adirondack Area,43.969,-74.164,YRWA,YRWA_historic
+23859,Myrtle Warbler,historic,1950,New York,Newcomb - Adirondack Area,43.969,-74.164,YRWA,YRWA_historic
+23870,Blackpoll Warbler,historic,1950,New York,Whiteface Mountain - Adirondack Area,44.365,-73.904,BLPW,BLPW_historic
+23871,Blackpoll Warbler,historic,1950,New York,Whiteface Mountain - Adirondack Area,44.365,-73.904,BLPW,BLPW_historic
+24219,Myrtle Warbler,historic,1952,New York,Ithaca,42.448,-76.497,YRWA,YRWA_historic
+24406,Myrtle Warbler,historic,1953,New York,Whiteface Mountain - Adirondack Area,44.365,-73.904,YRWA,YRWA_historic
+24407,Myrtle Warbler,historic,1953,New York,Whiteface Mountain - Adirondack Area,44.365,-73.904,YRWA,YRWA_historic
+24408,Myrtle Warbler,historic,1953,New York,Whiteface Mountain - Adirondack Area,44.365,-73.904,YRWA,YRWA_historic
+24413,Myrtle Warbler,historic,1953,New York,Whiteface Mountain - Adirondack Area,44.365,-73.904,YRWA,YRWA_historic
+25334,Blackpoll Warbler,historic,1955,New York,"Bridgeport, Adirondack Area",43.145,-75.97,BLPW,BLPW_historic
+25335,Blackpoll Warbler,historic,1955,New York,"Bridgeport, Adirondack Area",43.145,-75.97,BLPW,BLPW_historic
+275,Prairie Warbler,contemporary,2012,Massachusetts,Montague area,42.544,-72.514,PRAW,PRAW_contemporary
+276017404,Prairie Warbler,contemporary,2014,New Hampshire,Beaudette,43.113,-70.933,PRAW,PRAW_contemporary
+276017405,Prairie Warbler,contemporary,2014,New Hampshire,Beaudette,43.113,-70.933,PRAW,PRAW_contemporary
+276017406,Prairie Warbler,contemporary,2014,New Hampshire,Beaudette,43.113,-70.933,PRAW,PRAW_contemporary
+276017407,Prairie Warbler,contemporary,2014,New Hampshire,Beaudette,43.113,-70.933,PRAW,PRAW_contemporary
+276017429,Prairie Warbler,contemporary,2014,New Hampshire,PWRLnHannDov,43.182,-70.941,PRAW,PRAW_contemporary
+276017430,Prairie Warbler,contemporary,2014,New Hampshire,PWRLnHannDov,43.182,-70.941,PRAW,PRAW_contemporary
+276017431,Prairie Warbler,contemporary,2014,New Hampshire,PWRLnHannDov,43.182,-70.941,PRAW,PRAW_contemporary
+276017432,Prairie Warbler,contemporary,2014,New Hampshire,PWRLnHannDov,43.182,-70.941,PRAW,PRAW_contemporary
+276017442,Prairie Warbler,contemporary,2014,New Hampshire,PWRLnHannDov,43.182,-70.941,PRAW,PRAW_contemporary
+276017465,Prairie Warbler,contemporary,2014,New Hampshire,EFossFarmNEC,43.126,-70.936,PRAW,PRAW_contemporary
+276017478,Prairie Warbler,contemporary,2014,New Hampshire,PWRLnHannDov,43.182,-70.941,PRAW,PRAW_contemporary
+276017479,Prairie Warbler,contemporary,2014,New Hampshire,PWRLnHannDov,43.182,-70.941,PRAW,PRAW_contemporary
+276017481,Prairie Warbler,contemporary,2014,New Hampshire,PWRLnHannDov,43.182,-70.941,PRAW,PRAW_contemporary
+276017483,Prairie Warbler,contemporary,2014,New Hampshire,PWRLnHannDov,43.182,-70.941,PRAW,PRAW_contemporary
+276017485,Prairie Warbler,contemporary,2014,New Hampshire,PWRLnHannDov,43.182,-70.941,PRAW,PRAW_contemporary
+276017486,Prairie Warbler,contemporary,2014,New Hampshire,PWRLnHannDov,43.182,-70.941,PRAW,PRAW_contemporary
+276017487,Prairie Warbler,contemporary,2014,New Hampshire,PWRLnHannDov,43.182,-70.941,PRAW,PRAW_contemporary
+276017488,Prairie Warbler,contemporary,2014,New Hampshire,PWRLnHannDov,43.182,-70.941,PRAW,PRAW_contemporary
+276017489,Prairie Warbler,contemporary,2014,New Hampshire,PWRLnHannDov,43.182,-70.941,PRAW,PRAW_contemporary
+276026238,Prairie Warbler,contemporary,2014,New Hampshire,PWRLnHannDov,43.182,-70.941,PRAW,PRAW_contemporary
+283,Prairie Warbler,contemporary,2012,Massachusetts,Montague area,42.544,-72.514,PRAW,PRAW_contemporary
+285,Prairie Warbler,contemporary,2012,Massachusetts,Montague area,42.544,-72.514,PRAW,PRAW_contemporary
+28584,Blackpoll Warbler,historic,1953,New York,Whiteface Mountain - Adirondack Area,44.365,-73.904,BLPW,BLPW_historic
+295217,Myrtle Warbler,historic,1921,New Hampshire,Concord,43.228,-71.574,YRWA,YRWA_historic
+30168,Blackpoll Warbler,historic,1953,New York,Whiteface Mountain - Adirondack Area,44.365,-73.904,BLPW,BLPW_historic
+307,Prairie Warbler,contemporary,2012,Massachusetts,Montague area,42.544,-72.514,PRAW,PRAW_contemporary
+3091,Black-throated Blue Warbler,historic,1789,Michigan,Bay County,43.68,-84.017,BTBW,BTBW_historic
+3092,Black-throated Blue Warbler,historic,1789,Michigan,Bay County,43.68,-84.017,BTBW,BTBW_historic
+3093,Black-throated Blue Warbler,historic,1789,Michigan,Bay County,43.68,-84.017,BTBW,BTBW_historic
+309613,Prairie Warbler,historic,1904,Massachusetts,Lancaster - Worcester County,42.475,-71.683,PRAW,PRAW_historic
+319,Prairie Warbler,contemporary,2012,Massachusetts,Montague area,42.544,-72.514,PRAW,PRAW_contemporary
+322,Prairie Warbler,contemporary,2012,Massachusetts,Montague area,42.544,-72.514,PRAW,PRAW_contemporary
+338334,Prairie Warbler,historic,1897,Massachusetts,Salem,42.509,-70.903,PRAW,PRAW_historic
+3505,Black-throated Blue Warbler,historic,1911,North Carolina,?,35.061,-83.451,BTBW,BTBW_historic
+3506,Black-throated Blue Warbler,historic,1911,North Carolina,?,35.061,-83.451,BTBW,BTBW_historic
+3511,Black-throated Blue Warbler,historic,1919,North Carolina,?,35.061,-83.451,BTBW,BTBW_historic
+415,Prairie Warbler,contemporary,2012,Massachusetts,Montague area,42.544,-72.514,PRAW,PRAW_contemporary
+418,Prairie Warbler,contemporary,2012,Massachusetts,Montague area,42.544,-72.514,PRAW,PRAW_contemporary
+424,Prairie Warbler,contemporary,2012,Massachusetts,Montague area,42.544,-72.514,PRAW,PRAW_contemporary
+428,Prairie Warbler,contemporary,2012,Massachusetts,Montague area,42.544,-72.514,PRAW,PRAW_contemporary
+439,Prairie Warbler,contemporary,2012,Massachusetts,Montague area,42.544,-72.514,PRAW,PRAW_contemporary
+44318,Myrtle Warbler,contemporary,2005,New York,"Cornell Laboratory of Ornithology, ~5.5 km NE Ithaca, Sapsucker Woods Road  (Bldg)",42.479,-76.45,YRWA,YRWA_contemporary
+449,Prairie Warbler,contemporary,2012,Massachusetts,Montague area,42.544,-72.514,PRAW,PRAW_contemporary
+450,Prairie Warbler,contemporary,2012,Massachusetts,Montague area,42.544,-72.514,PRAW,PRAW_contemporary
+455,Prairie Warbler,contemporary,2012,Massachusetts,Montague area,42.544,-72.514,PRAW,PRAW_contemporary
+461,Prairie Warbler,contemporary,2012,Massachusetts,Montague area,42.544,-72.514,PRAW,PRAW_contemporary
+464,Prairie Warbler,contemporary,2012,Massachusetts,Montague area,42.544,-72.514,PRAW,PRAW_contemporary
+469,Prairie Warbler,contemporary,2012,Massachusetts,Montague area,42.544,-72.514,PRAW,PRAW_contemporary
+473,Prairie Warbler,contemporary,2012,Massachusetts,Montague area,42.544,-72.514,PRAW,PRAW_contemporary
+4837,Myrtle Warbler,historic,1896,New York,Greene County - Catskills,42.271,-74.212,YRWA,YRWA_historic
+4838,Myrtle Warbler,historic,1894,New York,Greene County - Catskills,42.271,-74.212,YRWA,YRWA_historic
+4839,Myrtle Warbler,historic,1897,New York,Greene County - Catskills,42.271,-74.212,YRWA,YRWA_historic
+4840,Myrtle Warbler,historic,1896,New York,Greene County - Catskills,42.271,-74.212,YRWA,YRWA_historic
+50160,Myrtle Warbler,contemporary,2003,New York,"Lansing, Lansing Station Road",42.578,-76.599,YRWA,YRWA_contemporary
+52102,Myrtle Warbler,contemporary,2005,New York,Ithaca,42.448,-76.497,YRWA,YRWA_contemporary
+5277,Black-throated Blue Warbler,historic,1930,North Carolina,?,35.061,-83.451,BTBW,BTBW_historic
+53205,Myrtle Warbler,contemporary,2009,New York,"Dryden, Gerung Circle",42.462,-76.293,YRWA,YRWA_contemporary
+53436,Myrtle Warbler,contemporary,2010,New York,"Ithaca, 159 Sapsucker Woods Rd.",42.479,-76.45,YRWA,YRWA_contemporary
+53624,Black-throated Blue Warbler,historic,1946,New York,"Ithaca, Cornell University, Fish Hatchery, Judd Falls Road and Cascadilla Creek",42.442,-76.469,BTBW,BTBW_historic
+53626,Myrtle Warbler,historic,1944,New York,Ithaca,42.448,-76.497,YRWA,YRWA_historic
+55013,Myrtle Warbler,contemporary,2010,New York,"Greece, 1744 Edgemere Drive",43.287,-77.669,YRWA,YRWA_contemporary
+55045,Myrtle Warbler,contemporary,2011,New York,"Caroline Township, Brooktondale",43.382,-76.388,YRWA,YRWA_contemporary
+55229,Myrtle Warbler,contemporary,2004,New York,"Greece Township, ~6.75 km NE Hilton, Braddock Bay Bird Observatory",43.323,-77.717,YRWA,YRWA_contemporary
+553,Blackpoll Warbler,contemporary,2008,New York,Greene County - Catskills,42.271,-74.212,BLPW,BLPW_contemporary
+55362,Myrtle Warbler,contemporary,2013,New York,"Cornell Laboratory of Ornithology, ~5.5 km NE Ithaca, Sapsucker Woods Road  (Bldg)",42.479,-76.45,YRWA,YRWA_contemporary
+55366,Myrtle Warbler,contemporary,2013,New York,"Cornell Laboratory of Ornithology, ~5.5 km NE Ithaca, Sapsucker Woods Road  (Bldg)",42.479,-76.45,YRWA,YRWA_contemporary
+554,Blackpoll Warbler,contemporary,2008,New York,Greene County - Catskills,42.271,-74.212,BLPW,BLPW_contemporary
+555,Blackpoll Warbler,contemporary,2008,New York,Greene County - Catskills,42.271,-74.212,BLPW,BLPW_contemporary
+556,Blackpoll Warbler,contemporary,2008,New York,Greene County - Catskills,42.271,-74.212,BLPW,BLPW_contemporary
+557,Blackpoll Warbler,contemporary,2008,New York,Keene - Adirondack Area,44.255,-73.792,BLPW,BLPW_contemporary
+558,Blackpoll Warbler,contemporary,2008,New York,Keene - Adirondack Area,44.255,-73.792,BLPW,BLPW_contemporary
+559,Blackpoll Warbler,contemporary,2008,New York,Keene - Adirondack Area,44.255,-73.792,BLPW,BLPW_contemporary
+56200,Myrtle Warbler,contemporary,2015,New York,"Lake Placid, 3.5 km S at Cornell-Uihlein Farm",44.255,-73.983,YRWA,YRWA_contemporary
+56968,Myrtle Warbler,contemporary,2015,New York,"Cornell Laboratory of Ornithology, ~5.5 km NE Ithaca, Sapsucker Woods Road  (Bldg)",42.479,-76.45,YRWA,YRWA_contemporary
+56975,Myrtle Warbler,contemporary,2015,New York,"Mecklenburg, 2.6 km NNE on Route 228",42.463,-76.707,YRWA,YRWA_contemporary
+570,Blackpoll Warbler,contemporary,2008,New York,North Elba - Adirondack Area,44.243,-73.958,BLPW,BLPW_contemporary
+571,Blackpoll Warbler,contemporary,2008,New York,North Elba - Adirondack Area,44.243,-73.958,BLPW,BLPW_contemporary
+572,Blackpoll Warbler,contemporary,2008,New York,North Elba - Adirondack Area,44.243,-73.958,BLPW,BLPW_contemporary
+575,Blackpoll Warbler,contemporary,2008,New York,North Elba - Adirondack Area,44.243,-73.958,BLPW,BLPW_contemporary
+578,Blackpoll Warbler,contemporary,2008,New York,North Hudson - Adirondack Area,43.949,-73.73,BLPW,BLPW_contemporary
+581,Blackpoll Warbler,contemporary,2008,New York,North Hudson - Adirondack Area,43.949,-73.73,BLPW,BLPW_contemporary
+589,Blackpoll Warbler,contemporary,2008,New York,Greene County - Catskills,42.271,-74.212,BLPW,BLPW_contemporary
+590,Blackpoll Warbler,contemporary,2008,New York,Greene County - Catskills,42.271,-74.212,BLPW,BLPW_contemporary
+592,Blackpoll Warbler,contemporary,2008,New York,Greene County - Catskills,42.271,-74.212,BLPW,BLPW_contemporary
+598,Blackpoll Warbler,contemporary,2008,New York,Keene - Adirondack Area,44.255,-73.792,BLPW,BLPW_contemporary
+611,Black-throated Blue Warbler,historic,1908,North Carolina,?,35.061,-83.451,BTBW,BTBW_historic
+612,Black-throated Blue Warbler,historic,1908,North Carolina,?,35.061,-83.451,BTBW,BTBW_historic
+613,Black-throated Blue Warbler,historic,1908,North Carolina,?,35.061,-83.451,BTBW,BTBW_historic
+615,Black-throated Blue Warbler,historic,1907,North Carolina,?,35.061,-83.451,BTBW,BTBW_historic
+616,Black-throated Blue Warbler,historic,1908,North Carolina,?,35.061,-83.451,BTBW,BTBW_historic
+623,Black-throated Blue Warbler,historic,1907,North Carolina,?,35.061,-83.451,BTBW,BTBW_historic
+624,Black-throated Blue Warbler,historic,1941,North Carolina,?,35.061,-83.451,BTBW,BTBW_historic
+626,Black-throated Blue Warbler,historic,1916,North Carolina,?,35.061,-83.451,BTBW,BTBW_historic
+806,Blackpoll Warbler,contemporary,2000,Quebec,"Mine Madeleine, Gaspesie",48.971,-66.005,BLPW,BLPW_contemporary
+8064,Prairie Warbler,historic,1914,Arkansas,Winslow,35.802,-94.127,PRAW,PRAW_historic
+8065,Prairie Warbler,historic,1914,Arkansas,Winslow,35.802,-94.127,PRAW,PRAW_historic
+807,Blackpoll Warbler,contemporary,2000,Quebec,"Mine Madeleine, Gaspesie",48.971,-66.005,BLPW,BLPW_contemporary
+808,Blackpoll Warbler,contemporary,2000,Quebec,"Mine Madeleine, Gaspesie",48.971,-66.005,BLPW,BLPW_contemporary
+809,Blackpoll Warbler,contemporary,2000,Quebec,"Mine Madeleine, Gaspesie",48.971,-66.005,BLPW,BLPW_contemporary
+810,Blackpoll Warbler,contemporary,2000,Quebec,"Mine Madeleine, Gaspesie",48.971,-66.005,BLPW,BLPW_contemporary
+811,Blackpoll Warbler,contemporary,2000,Quebec,"Mine Madeleine, Gaspesie",48.971,-66.005,BLPW,BLPW_contemporary
+812,Blackpoll Warbler,contemporary,2000,Quebec,"Mine Madeleine, Gaspesie",48.971,-66.005,BLPW,BLPW_contemporary
+814,Blackpoll Warbler,contemporary,2000,Quebec,"Mine Madeleine, Gaspesie",48.971,-66.005,BLPW,BLPW_contemporary
+815,Blackpoll Warbler,contemporary,2000,Quebec,"Mine Madeleine, Gaspesie",48.971,-66.005,BLPW,BLPW_contemporary
+816,Blackpoll Warbler,contemporary,2000,Quebec,"Mine Madeleine, Gaspesie",48.971,-66.005,BLPW,BLPW_contemporary
+817,Blackpoll Warbler,contemporary,2000,Quebec,"Mine Madeleine, Gaspesie",48.971,-66.005,BLPW,BLPW_contemporary
+818,Blackpoll Warbler,contemporary,2000,Quebec,"Mine Madeleine, Gaspesie",48.971,-66.005,BLPW,BLPW_contemporary
+819,Blackpoll Warbler,contemporary,2000,Quebec,"Mine Madeleine, Gaspesie",48.971,-66.005,BLPW,BLPW_contemporary
+820,Blackpoll Warbler,contemporary,2000,Quebec,"Mine Madeleine, Gaspesie",48.971,-66.005,BLPW,BLPW_contemporary
+873,Blackpoll Warbler,contemporary,2011,New York,Greene County - Catskills,42.271,-74.212,BLPW,BLPW_contemporary
+906,Blackpoll Warbler,contemporary,2009,New York,Keene - Adirondack Area,44.255,-73.792,BLPW,BLPW_contemporary
+908,Blackpoll Warbler,contemporary,2009,New York,North Elba - Adirondack Area,44.243,-73.958,BLPW,BLPW_contemporary
+909,Blackpoll Warbler,contemporary,2009,New York,North Elba - Adirondack Area,44.243,-73.958,BLPW,BLPW_contemporary
+910,Blackpoll Warbler,contemporary,2009,New York,North Elba - Adirondack Area,44.243,-73.958,BLPW,BLPW_contemporary
+917,Blackpoll Warbler,contemporary,2009,New York,Greene County - Catskills,42.271,-74.212,BLPW,BLPW_contemporary
+919,Blackpoll Warbler,contemporary,2009,New York,Greene County - Catskills,42.271,-74.212,BLPW,BLPW_contemporary
+932,Blackpoll Warbler,contemporary,2009,New York,Greene County - Catskills,42.271,-74.212,BLPW,BLPW_contemporary
+933,Blackpoll Warbler,contemporary,2009,New York,North Hudson - Adirondack Area,43.949,-73.73,BLPW,BLPW_contemporary
+934,Blackpoll Warbler,contemporary,2009,New York,North Hudson - Adirondack Area,43.949,-73.73,BLPW,BLPW_contemporary
+938,Blackpoll Warbler,contemporary,2009,New York,North Hudson - Adirondack Area,43.949,-73.73,BLPW,BLPW_contemporary
+940,Blackpoll Warbler,contemporary,2009,New York,North Hudson - Adirondack Area,43.949,-73.73,BLPW,BLPW_contemporary
+944,Blackpoll Warbler,contemporary,2009,New York,North Hudson - Adirondack Area,43.949,-73.73,BLPW,BLPW_contemporary
+945,Blackpoll Warbler,contemporary,2009,New York,North Hudson - Adirondack Area,43.949,-73.73,BLPW,BLPW_contemporary
+946,Blackpoll Warbler,contemporary,2009,New York,North Hudson - Adirondack Area,43.949,-73.73,BLPW,BLPW_contemporary
+B8601,Prairie Warbler,historic,1891,Massachusetts,Melrose,42.457,-71.057,PRAW,PRAW_historic
+BW1910,Black-throated Blue Warbler,contemporary,2001,New York,?,41.991,-74.32,BTBW,BTBW_contemporary
+BW1911,Black-throated Blue Warbler,contemporary,2001,New York,?,41.991,-74.32,BTBW,BTBW_contemporary
+BW1912,Black-throated Blue Warbler,contemporary,2001,New York,?,41.991,-74.32,BTBW,BTBW_contemporary
+BW1913,Black-throated Blue Warbler,contemporary,2001,New York,?,41.991,-74.32,BTBW,BTBW_contemporary
+BW1914,Black-throated Blue Warbler,contemporary,2001,New York,?,41.991,-74.32,BTBW,BTBW_contemporary
+BW1915,Black-throated Blue Warbler,contemporary,2001,New York,?,41.991,-74.32,BTBW,BTBW_contemporary
+BW1916,Black-throated Blue Warbler,contemporary,2001,New York,?,41.991,-74.32,BTBW,BTBW_contemporary
+BW1918,Black-throated Blue Warbler,contemporary,2001,New York,?,41.991,-74.32,BTBW,BTBW_contemporary
+bwnc002,Black-throated Blue Warbler,contemporary,2002,North Carolina,Coweeta Experimental Forest,35.061,-83.451,BTBW,BTBW_contemporary
+bwnc004,Black-throated Blue Warbler,contemporary,2002,North Carolina,Coweeta Experimental Forest,35.061,-83.451,BTBW,BTBW_contemporary
+bwnc14,Black-throated Blue Warbler,contemporary,2002,North Carolina,?,35.061,-83.451,BTBW,BTBW_contemporary
+bwnc16,Black-throated Blue Warbler,contemporary,2002,North Carolina,?,35.061,-83.451,BTBW,BTBW_contemporary
+bwnc17,Black-throated Blue Warbler,contemporary,2002,North Carolina,?,35.061,-83.451,BTBW,BTBW_contemporary
+bwnc25,Black-throated Blue Warbler,contemporary,2002,North Carolina,?,35.061,-83.451,BTBW,BTBW_contemporary
+bwnc28,Black-throated Blue Warbler,contemporary,2002,North Carolina,?,35.061,-83.451,BTBW,BTBW_contemporary
+bwnc30,Black-throated Blue Warbler,contemporary,2002,North Carolina,?,35.061,-83.451,BTBW,BTBW_contemporary
+bwnc31,Black-throated Blue Warbler,contemporary,2002,North Carolina,Coweeta Experimental Forest,35.061,-83.451,BTBW,BTBW_contemporary
+bwnc32,Black-throated Blue Warbler,contemporary,2002,North Carolina,Coweeta Experimental Forest,35.061,-83.451,BTBW,BTBW_contemporary
+bwnc33,Black-throated Blue Warbler,contemporary,2002,North Carolina,Coweeta Experimental Forest,35.061,-83.451,BTBW,BTBW_contemporary
+bwnc5,Black-throated Blue Warbler,contemporary,2002,North Carolina,?,35.061,-83.451,BTBW,BTBW_contemporary
+bwnc7,Black-throated Blue Warbler,contemporary,2002,North Carolina,?,35.061,-83.451,BTBW,BTBW_contemporary
+bwnc8,Black-throated Blue Warbler,contemporary,2002,North Carolina,?,35.061,-83.451,BTBW,BTBW_contemporary
+MI01,Black-throated Blue Warbler,contemporary,2001,Michigan,?,45.975,-86.4834,BTBW,BTBW_contemporary
+MI03,Black-throated Blue Warbler,contemporary,2001,Michigan,?,45.975,-86.4834,BTBW,BTBW_contemporary
+MI04,Black-throated Blue Warbler,contemporary,2001,Michigan,?,45.975,-86.4834,BTBW,BTBW_contemporary
+MI05,Black-throated Blue Warbler,contemporary,2001,Michigan,?,45.975,-86.4834,BTBW,BTBW_contemporary
+MI06,Black-throated Blue Warbler,contemporary,2001,Michigan,?,45.975,-86.4834,BTBW,BTBW_contemporary
+MI07,Black-throated Blue Warbler,contemporary,2001,Michigan,?,45.975,-86.4834,BTBW,BTBW_contemporary
+MI08,Black-throated Blue Warbler,contemporary,2001,Michigan,?,45.975,-86.4834,BTBW,BTBW_contemporary
+MI09,Black-throated Blue Warbler,contemporary,2001,Michigan,?,45.975,-86.4834,BTBW,BTBW_contemporary
+MI10,Black-throated Blue Warbler,contemporary,2001,Michigan,?,45.975,-86.4834,BTBW,BTBW_contemporary
+MI11,Black-throated Blue Warbler,contemporary,2001,Michigan,?,45.975,-86.4834,BTBW,BTBW_contemporary
+MI12,Black-throated Blue Warbler,contemporary,2001,Michigan,?,45.975,-86.4834,BTBW,BTBW_contemporary
+MI13,Black-throated Blue Warbler,contemporary,2001,Michigan,?,45.975,-86.4834,BTBW,BTBW_contemporary
+MI14,Black-throated Blue Warbler,contemporary,2001,Michigan,?,45.975,-86.4834,BTBW,BTBW_contemporary
+MI15,Black-throated Blue Warbler,contemporary,2001,Michigan,?,45.975,-86.4834,BTBW,BTBW_contemporary
+MI16,Black-throated Blue Warbler,contemporary,2001,Michigan,?,45.975,-86.4834,BTBW,BTBW_contemporary
+MI17,Black-throated Blue Warbler,contemporary,2001,Michigan,?,45.975,-86.4834,BTBW,BTBW_contemporary
+MI18,Black-throated Blue Warbler,contemporary,2001,Michigan,?,45.975,-86.4834,BTBW,BTBW_contemporary
+MI19,Black-throated Blue Warbler,contemporary,2001,Michigan,?,45.975,-86.4834,BTBW,BTBW_contemporary
+P100048,Blackpoll Warbler,historic,1926,Quebec,Hudson Bay,51.701,-78.742,BLPW,BLPW_historic
+P100061,Blackpoll Warbler,historic,1926,Quebec,Lac Guillaume Delisle,56.118,-75.887,BLPW,BLPW_historic
+P100283,Blackpoll Warbler,historic,1926,Quebec,Hudson Bay,51.701,-78.742,BLPW,BLPW_historic
+P100300,Blackpoll Warbler,historic,1926,Quebec,Lac Guillaume Delisle,56.118,-75.887,BLPW,BLPW_historic
+P135709,Blackpoll Warbler,historic,1953,New York,"Slide Mountain, Catskill Mountains",41.997,-74.385,BLPW,BLPW_historic
+P135710,Blackpoll Warbler,historic,1953,New York,"Slide Mountain, Catskill Mountains",41.997,-74.385,BLPW,BLPW_historic
+P48657,Blackpoll Warbler,historic,1914,Quebec,Broadback River,51.176,-77.099,BLPW,BLPW_historic
+P48707,Blackpoll Warbler,historic,1914,Quebec,Hudson Bay,51.701,-78.742,BLPW,BLPW_historic
+P49026,Blackpoll Warbler,historic,1914,Quebec,Hudson Bay,51.701,-78.742,BLPW,BLPW_historic
+P57217,Blackpoll Warbler,historic,1917,Quebec,Riviere Sainte Marguerite,48.255,-69.861,BLPW,BLPW_historic
+P57220,Blackpoll Warbler,historic,1917,Quebec,Riviere Sainte Marguerite,48.255,-69.861,BLPW,BLPW_historic
+PRAW10,Prairie Warbler,contemporary,2020,Arkansas,"35.535700, -91.826733",35.5357,-91.826733,PRAW,PRAW_contemporary
+PRAW11,Prairie Warbler,contemporary,2020,Arkansas,"35.535700, -91.826733",35.5357,-91.826733,PRAW,PRAW_contemporary
+PRAW13,Prairie Warbler,contemporary,2020,Arkansas,"35.535700, -91.826733",35.5357,-91.826733,PRAW,PRAW_contemporary
+PRAW14,Prairie Warbler,contemporary,2020,Arkansas,"35.535700, -91.826733",35.5357,-91.826733,PRAW,PRAW_contemporary
+PRAW15,Prairie Warbler,contemporary,2020,Arkansas,"35.535700, -91.826733",35.5357,-91.826733,PRAW,PRAW_contemporary
+PRAW16,Prairie Warbler,contemporary,2020,Arkansas,"35.535700, -91.826733",35.5357,-91.826733,PRAW,PRAW_contemporary
+PRAW17,Prairie Warbler,contemporary,2020,Arkansas,"35.535700, -91.826733",35.5357,-91.826733,PRAW,PRAW_contemporary
+PRAW18,Prairie Warbler,contemporary,2020,Arkansas,"35.535700, -91.826733",35.5357,-91.826733,PRAW,PRAW_contemporary
+PRAW19,Prairie Warbler,contemporary,2020,Arkansas,"35.535700, -91.826733",35.5357,-91.826733,PRAW,PRAW_contemporary
+PRAW20,Prairie Warbler,contemporary,2020,Arkansas,"35.535700, -91.826733",35.5357,-91.826733,PRAW,PRAW_contemporary
+PRAW21,Prairie Warbler,contemporary,2020,Arkansas,"35.535700, -91.826733",35.5357,-91.826733,PRAW,PRAW_contemporary
+PRAW22,Prairie Warbler,contemporary,2020,Arkansas,"35.535700, -91.826733",35.5357,-91.826733,PRAW,PRAW_contemporary
+PRAW23,Prairie Warbler,contemporary,2020,Arkansas,"35.535700, -91.826733",35.5357,-91.826733,PRAW,PRAW_contemporary
+PRAW24,Prairie Warbler,contemporary,2020,Arkansas,"35.535700, -91.826733",35.5357,-91.826733,PRAW,PRAW_contemporary
+PRAW25,Prairie Warbler,contemporary,2020,Arkansas,"35.535700, -91.826733",35.5357,-91.826733,PRAW,PRAW_contemporary
+PRAW26,Prairie Warbler,contemporary,2020,Arkansas,"35.535700, -91.826733",35.5357,-91.826733,PRAW,PRAW_contemporary
+PRAW27,Prairie Warbler,contemporary,2020,Arkansas,"35.535700, -91.826733",35.5357,-91.826733,PRAW,PRAW_contemporary
+PRAW28,Prairie Warbler,contemporary,2020,Arkansas,"35.535700, -91.826733",35.5357,-91.826733,PRAW,PRAW_contemporary
+PRAW29,Prairie Warbler,contemporary,2020,Arkansas,"35.535700, -91.826733",35.5357,-91.826733,PRAW,PRAW_contemporary
+PRAW30,Prairie Warbler,contemporary,2020,Arkansas,"35.535700, -91.826733",35.5357,-91.826733,PRAW,PRAW_contemporary
+QF09T03,Myrtle Warbler,contemporary,2017,New York,Adirondacks - Moose River,43.622,-74.97,YRWA,YRWA_contemporary
+QF10T03,Myrtle Warbler,contemporary,2017,New York,Adirondacks - Moose River,43.622,-74.97,YRWA,YRWA_contemporary
+QF11T02,Myrtle Warbler,contemporary,2017,New York,Adirondacks - Sagamore,43.765,-74.626,YRWA,YRWA_contemporary
+QF11T05,Myrtle Warbler,contemporary,2017,New York,Adirondacks - Sagamore,43.765,-74.626,YRWA,YRWA_contemporary
+QF11T06,Myrtle Warbler,contemporary,2017,New York,Adirondacks - Sagamore,43.765,-74.626,YRWA,YRWA_contemporary
+QF11T07,Myrtle Warbler,contemporary,2017,New York,Adirondacks - Sagamore,43.765,-74.626,YRWA,YRWA_contemporary
+RF06T06,Myrtle Warbler,contemporary,2018,New York,Adirondacks - Moose River,43.622,-74.97,YRWA,YRWA_contemporary
+RF06T07,Myrtle Warbler,contemporary,2018,New York,Adirondacks - Moose River,43.622,-74.97,YRWA,YRWA_contemporary
+RF06T15,Myrtle Warbler,contemporary,2018,New York,Adirondacks - Moose River,43.622,-74.97,YRWA,YRWA_contemporary
+RF07T17,Myrtle Warbler,contemporary,2018,New York,Adirondacks - Moose River,43.622,-74.97,YRWA,YRWA_contemporary
+RF08T02,Myrtle Warbler,contemporary,2018,New York,Adirondacks - Moose River,43.622,-74.97,YRWA,YRWA_contemporary
+SF17T02,Myrtle Warbler,contemporary,2019,New York,Adirondacks - Moose River,43.622,-74.97,YRWA,YRWA_contemporary
+SF17T10,Myrtle Warbler,contemporary,2019,New York,Adirondacks - Moose River,43.622,-74.97,YRWA,YRWA_contemporary
+SF17T11,Myrtle Warbler,contemporary,2019,New York,Adirondacks - Moose River,43.622,-74.97,YRWA,YRWA_contemporary
+SF17T13,Myrtle Warbler,contemporary,2019,New York,Adirondacks - Moose River,43.622,-74.97,YRWA,YRWA_contemporary
+SF17T24,Myrtle Warbler,contemporary,2019,New York,Adirondacks - Moose River,43.622,-74.97,YRWA,YRWA_contemporary
+TF18T06,Myrtle Warbler,contemporary,2020,New York,Adirondacks - Moose River,43.622,-74.97,YRWA,YRWA_contemporary
+TF18T07,Myrtle Warbler,contemporary,2020,New York,Adirondacks - Moose River,43.622,-74.97,YRWA,YRWA_contemporary
+TF18T11,Myrtle Warbler,contemporary,2020,New York,Adirondacks - Moose River,43.622,-74.97,YRWA,YRWA_contemporary
+TF18T14,Myrtle Warbler,contemporary,2020,New York,Adirondacks - Moose River,43.622,-74.97,YRWA,YRWA_contemporary
+TF18T16,Myrtle Warbler,contemporary,2020,New York,Adirondacks - Moose River,43.622,-74.97,YRWA,YRWA_contemporary
+zo-10976,Myrtle Warbler,contemporary,2009,New York,"Blackhead Mountain, elev. 3900 ft., 42°16.189'N, 74°06.483' W",42.26995,-74.1088,YRWA,YRWA_contemporary
+zo-10977,Myrtle Warbler,contemporary,2009,New York,"Blackhead Mountain, elev. 3900 ft., 42°16.189'N, 74°06.483' W",42.26995,-74.1088,YRWA,YRWA_contemporary
+zo-11082,Myrtle Warbler,contemporary,2010,New York,"Blackhead Mountain, elev. 3900 ft., 42°16.189'N, 74°06.483' W",42.26995,-74.1088,YRWA,YRWA_contemporary
+zo-11140,Myrtle Warbler,contemporary,2010,New York,"Twin Mountain, 3622 ft., 42°07.532'N, 74°07.749'W",42.125533,-74.12915,YRWA,YRWA_contemporary
+zo-11236,Myrtle Warbler,contemporary,2011,New York,"Blackhead Mountain, elev. 3900 ft., 42°16.189'N, 74°06.483' W",42.26995,-74.1088,YRWA,YRWA_contemporary
+zo-11237,Myrtle Warbler,contemporary,2011,New York,"Blackhead Mountain, elev. 3900 ft., 42°16.189'N, 74°06.483' W",42.26995,-74.1088,YRWA,YRWA_contemporary
+zo-11238,Myrtle Warbler,contemporary,2011,New York,"Blackhead Mountain, elev. 3900 ft., 42°16.189'N, 74°06.483' W",42.26995,-74.1088,YRWA,YRWA_contemporary
+zo-11279,Myrtle Warbler,contemporary,2011,New York,"Blackhead Mountain, elev. 3850 ft., 42°16.197'N, 74°06.528' W",42.26995,-74.1088,YRWA,YRWA_contemporary
+zo-11282,Myrtle Warbler,contemporary,2011,New York,"Blackdome Mountain, elev. 3910 ft., 42°16.219'N, 74°07.186' W",42.270306,-74.119778,YRWA,YRWA_contemporary
+zo-15348,Blackpoll Warbler,contemporary,2010,Vermont,Mount Mansfield,44.543,-72.814,BLPW,BLPW_contemporary
+zo-15349,Blackpoll Warbler,contemporary,2010,Vermont,Mount Mansfield,44.543,-72.814,BLPW,BLPW_contemporary
+zo-15350,Blackpoll Warbler,contemporary,2010,Vermont,Mount Mansfield,44.543,-72.814,BLPW,BLPW_contemporary
+zo-15351,Blackpoll Warbler,contemporary,2010,Vermont,Mount Mansfield,44.543,-72.814,BLPW,BLPW_contemporary
+zo-15354,Blackpoll Warbler,contemporary,2010,Vermont,Mount Mansfield,44.543,-72.814,BLPW,BLPW_contemporary
+zo-19372,Blackpoll Warbler,contemporary,2016,Vermont,Mount Mansfield,44.543,-72.814,BLPW,BLPW_contemporary
+zo-19376,Blackpoll Warbler,contemporary,2016,Vermont,Mount Mansfield,44.543,-72.814,BLPW,BLPW_contemporary
+zo-5472,Myrtle Warbler,historic,1954,New York,"Slide Mountain, elev. 4200 ft.",41.997,-74.385,YRWA,YRWA_historic
+zo-5473,Myrtle Warbler,historic,1954,New York,"Slide Mountain, elev. 4200 ft.",41.997,-74.385,YRWA,YRWA_historic
+zo-5474,Myrtle Warbler,historic,1954,New York,"Slide Mountain, elev. 4200 ft.",41.997,-74.385,YRWA,YRWA_historic
+zo-5475,Myrtle Warbler,historic,1954,New York,"Slide Mountain, elev. 4200 ft.",41.997,-74.385,YRWA,YRWA_historic
+zo-5476,Myrtle Warbler,historic,1954,New York,"Whiteface Mountain, elev. 3800 ft.",44.365,-73.904,YRWA,YRWA_historic
+zo-5477,Myrtle Warbler,historic,1954,New York,"Slide Mountain, elev. 4200 ft.",41.997,-74.385,YRWA,YRWA_historic
+zo-5480,Myrtle Warbler,historic,1955,New York,"Tioga Point, Raquette Lake - Adirondack Area",43.844,-74.634,YRWA,YRWA_historic
+zo-5481,Myrtle Warbler,historic,1955,New York,"Slide Mountain, elev. 4200 ft.",41.997,-74.385,YRWA,YRWA_historic
+zo-5558,Blackpoll Warbler,historic,1954,New York,"Slide Mountain, elev. 4200 ft.",41.997,-74.385,BLPW,BLPW_historic
+zo-5559,Blackpoll Warbler,historic,1954,New York,"Slide Mountain, elev. 4200 ft.",41.997,-74.385,BLPW,BLPW_historic
