@@ -7,24 +7,24 @@ output: rmarkdown::github_document
 
 ```{r setup, include=FALSE}
 
-knitr::opts_chunk$set(echo = TRUE)
-knitr::opts_chunk$set(message = FALSE)
-knitr::opts_chunk$set(warning = FALSE)
-knitr::opts_chunk$set(error = FALSE)
+knitr::opts_chunk$set(echo = TRUE) # Show code
+knitr::opts_chunk$set(message = T) # Hide messages
+knitr::opts_chunk$set(warning = T) # Hide warnings
+knitr::opts_chunk$set(error = T )     # Hide errors
 
-## here gives the workdir to where the .Rproj file lives. Since Rmd sets your working directory as whatever file it lives in, you can tell it where to find your data files by using here(). This is INSTEAD of having to write the absolute path for every file you want to load into your Rmd.
-library(here)
-here()
+
 ```
 
 ## Create file for each species
 
-```{r metadata-cleaning}
+```{r metadata cleaning}
 
 library(tidyverse)
-
+## here gives the workdir to where the .Rproj file lives. Since Rmd sets your working directory as whatever file it lives in, you can tell it where to find your data files by using here(). This is INSTEAD of having to write the absolute path for every file you want to load into your Rmd.
+library(here)
+here::here()
 # 
-meta <- read.csv(here("data/warbler_341_final_metadata.csv"))
+meta <- read.csv("data/warbler_341_final_metadata.csv")
 
 ## for each species/sampling category 
 sp <- unique(meta$Species_samplingcategory)
@@ -55,7 +55,7 @@ for (i in 1:length(sp)){
 ```
 
 #separate vcfs
-```{bash create-sep-vcf-spp/time, eval=FALSE}
+```{bash create-vcf-spp/time, eval=F}
 
 # Making per sp/time vcfs for all sites
 vcftools --vcf warbler_341_all_sites_highcov.recode.vcf --keep SpecimenID_BLPW_historic.txt --recode --out BLPW_historic_341_all_sites_highcov
@@ -78,7 +78,7 @@ vcftools --vcf warbler_341_unlinked_variants_highcov.recode.vcf --keep SpecimenI
 ```
 
 
-```{bash calculate-diversity-stats, eval=FALSE}
+```{bash calculate-diversity-stats, eval=F}
 
 ## heterozygosity
 vcftools --vcf warbler_biodiv/warbler_341_all_sites_highcov.recode.vcf.gz --het --out warbler_341_all_sites_variants_highcov
@@ -87,7 +87,7 @@ vcftools --vcf warbler_biodiv/warbler_341_all_sites_highcov.recode.vcf.gz --het 
 
 ## Pixy calculation of Pi
 
-```{bash Pi-Pixy, eval=FALSE}
+```{bash Pi-Pixy, eval=F}
 
 ## run in terminal - pixy runs in bash not R
 ## moved warbler_364_final.recode.vcf and INDVspecies into workdir
@@ -223,7 +223,7 @@ bootstrap_with_ttest <- function(df, metric,
 
 Pi 
 
-```{R pi significance}
+```{r pi-significance}
 
 pixy <- read.table("data/warbler_341_all_sites_highcov_window1_pi.txt", header = T)
 
@@ -278,7 +278,7 @@ write.csv(pixy_results, "results/Bootstrapped_perc_change_pi_all_sites_all_spp.c
 
 ### Heterozygosity 
 
-```{r het-Significance-testing }
+```{r het-Significance-testing}
 
 het <- read.table("data/warbler_341_all_sites_variants_highcov.het", header = T)
 pop <- read.csv("data/warbler_341_final_metadata.csv") %>% 
@@ -348,15 +348,13 @@ write.csv(het_results, "results/Bootstrapped_perc_change_Heterozygosity_all_site
 ```
 
 ## Calculating Allelic Richness
-```{r calc-allelic-richness, eval=FALSE}
+```{r allelic-richness}
 
 #install.packages("PopGenReport")
 library(PopGenReport)
 library(vcfR)
 library(adegenet)
 library(pegas)
-library(dartR)
-library(tidyr)
 
 #load data
 warblers <- read.vcfR("data/warbler_341_unlinked_variants_highcov.recode.vcf")
@@ -375,38 +373,28 @@ warbgenind@pop <- as.factor(pop_filt$Species)
 AR <- popgenreport(warbgenind, mk.allel.rich=TRUE, mk.pdf = F)
 
 saveRDS(AR, "results/allelic_richness_warbler_341_unlinked_variants_highcov.rds")
-```
 
-```{r AR-output}
-library(tidyr)
-
-AR <- readRDS("results/allelic_richness_warbler_341_unlinked_variants_highcov.rds")
 ## create table of allelic richness output
-mean_richness_values <- AR$allel.rich[[1]]$mean.richness
-sum_richness_values <- AR$allel.rich[[1]]$sum.richness
+mean_richness <- data.frame(species = names(AR$allel.rich[[1]]$mean.richness), 
+                               mean_richness = AR$allel.rich[[1]]$mean.richness)
+sum_richness <- data.frame(species = names(AR$allel.rich[[1]]$sum.richness), 
+                               sum_richness = AR$allel.rich[[1]]$sum.richness)
 
-ARdf <- data.frame(
-  species = names(mean_richness_values), 
-  mean_richness = mean_richness_values,
-  sum_richness = sum_richness_values
-)
+ARdf <- merge(mean_richness, sum_richness, by = "species")
 print(ARdf)
 
 write.csv(ARdf, "results/allelic_richness_warbler_341_unlinked_variants_highcov.csv", row.names = F)
 
 ARraw <- as.data.frame(AR$allel.rich[[1]]$all.richness)
 ARraw$site <- rownames(ARraw)
-rownames(ARraw) <- NULL
 
 ## convert AR for stats test, % change
 AR_reshape <- ARraw %>%
-  tidyr::pivot_longer(cols = c("BLPW_contemporary", "BLPW_historic", "BTBW_contemporary",
-                        "BTBW_historic", "PRAW_contemporary", "PRAW_historic",
-                        "YRWA_contemporary", "YRWA_historic" ),
+  pivot_longer(cols = -site,
                names_to = "Species_SamplingCategory",
                values_to = "AR") %>%
   # Separate the combined column into species and sampling category
-  tidyr::separate(Species_SamplingCategory, 
+  separate(Species_SamplingCategory, 
            into = c("Species", "SamplingCategory"), 
            sep = "_")
 
@@ -556,7 +544,7 @@ library(here)
 library(dartR.popgen)
 library(vcfR)
 
-warblers <- read.vcfR("data/warbler_341_unlinked_variants_highcov.recode.vcf")
+warblers <- read.vcfR("data/warbler_341_variants_highcov.recode.vcf")
 summary(warblers)
 warbgenind <- vcfR2genind(warblers)
 pop <- read.csv("data/warbler_341_final_metadata.csv")%>% 
@@ -595,37 +583,45 @@ for (i in 1:length(spnames)) {
 write.csv(Netbl, "results/LDNe_results.csv", row.names = F)
 
 ```
-## plot heterozygosity across time
-```{r het-spp-time}
-library(tidyverse)
-het <- read.table("data/warbler_341_all_sites_variants_highcov.het", header = T)
 
+#plotting Heterozygosity results
+
+```{r het-plot}
+library(tidyverse)
+
+het <- read.table("data/warbler_341_all_sites_variants_highcov.het", header = T)
 meta <- read.csv("data/warbler_341_final_metadata.csv")
 
 hetmeta <- merge(het, meta, by.x = "INDV", by.y = "SpecimenID", all.x = T, all.y. = F)
 
-unique(hetmeta$YearSampled)
-
 hetmeta$O.HET. <- 1 - hetmeta$O.HOM.
 hetmeta$prop.Ho <- hetmeta$O.HET./hetmeta$N_SITES
 
-het <- ggplot(data= hetmeta, aes(x = YearSampled, y = prop.Ho))+
+hetmeta$Species[hetmeta$Species == "Myrtle Warbler"] <- "Yellow-rumped Warbler"
+
+colforsp <- c("Prairie Warbler" = "#1AE4B6FF", 
+              "Black-throated Blue Warbler" = "#30123BFF", 
+              "Blackpoll Warbler" = "#7A0403FF",
+              "Yellow-rumped Warbler" = "#FABA39FF")
+hetmeta$Species <- factor(hetmeta$Species, 
+                           levels = c("Prairie Warbler", "Black-throated Blue Warbler", 
+                                      "Blackpoll Warbler", "Yellow-rumped Warbler"))
+
+het <- ggplot(hetmeta, aes(x = YearSampled, y = prop.Ho, color = Species))+
   geom_point(size = 4.5)+
-  geom_smooth(method = "lm", 
-              color = "darkblue", 
-              fill = "lightblue", 
-              alpha = 0.3)+
+  geom_smooth(method = "lm")+
+  scale_color_manual(values = colforsp)+
   facet_wrap(~Species, scales = "free")+
-  labs(x = "Year", y= "Prop. Obs. Heterozygosity")+
+  labs(x = "Year Sampled", y = "Prop. Obs. Heterozygosity")+
   theme_classic()+
-  theme(
-    text = element_text(size = 24),          # Overall text size
-    axis.text = element_text(size = 20),     # Axis tick labels
-    axis.title = element_text(size = 20),    # Axis title
-    plot.title = element_text(size = 20)     # Plot title
-  )
+  theme(axis.title.x = element_text(size = 20),
+        axis.title.y = element_text(size = 20),
+        axis.text = element_text(size = 18),
+        strip.text = element_text(size = 16)) 
+
 het
 
-ggsave("results/Het_year_byspp.png", plot = het, dpi = 600, width = 12, height = 8)
+ggsave(filename = "Het_year_byspp.png", path = "results/", 
+       plot = het, dpi = 600, height = 8, width = 12)
 
 ```

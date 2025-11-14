@@ -7,9 +7,35 @@ Ore, MJ.
 
 ``` r
 library(tidyverse)
+```
 
+    ## ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+    ## ✔ dplyr     1.1.4     ✔ readr     2.1.5
+    ## ✔ forcats   1.0.1     ✔ stringr   1.6.0
+    ## ✔ ggplot2   4.0.0     ✔ tibble    3.3.0
+    ## ✔ lubridate 1.9.4     ✔ tidyr     1.3.1
+    ## ✔ purrr     1.2.0     
+    ## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+    ## ✖ dplyr::filter() masks stats::filter()
+    ## ✖ dplyr::lag()    masks stats::lag()
+    ## ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+
+``` r
+## here gives the workdir to where the .Rproj file lives. Since Rmd sets your working directory as whatever file it lives in, you can tell it where to find your data files by using here(). This is INSTEAD of having to write the absolute path for every file you want to load into your Rmd.
+library(here)
+```
+
+    ## here() starts at /Users/madelynore/Dropbox/Cornell/Warbler BioDiv Project/Submission_documents/BMC/Warbler_Biodiversity
+
+``` r
+here::here()
+```
+
+    ## [1] "/Users/madelynore/Dropbox/Cornell/Warbler BioDiv Project/Submission_documents/BMC/Warbler_Biodiversity"
+
+``` r
 # 
-meta <- read.csv(here("data/warbler_341_final_metadata.csv"))
+meta <- read.csv("data/warbler_341_final_metadata.csv")
 
 ## for each species/sampling category 
 sp <- unique(meta$Species_samplingcategory)
@@ -434,15 +460,100 @@ write.csv(het_results, "results/Bootstrapped_perc_change_Heterozygosity_all_site
 ``` r
 #install.packages("PopGenReport")
 library(PopGenReport)
+```
+
+    ## Loading required package: knitr
+
+    ## Loading required package: adegenet
+
+    ## Loading required package: ade4
+
+    ## 
+    ##    /// adegenet 2.1.11 is loaded ////////////
+    ## 
+    ##    > overview: '?adegenet'
+    ##    > tutorials/doc/questions: 'adegenetWeb()' 
+    ##    > bug reports/feature requests: adegenetIssues()
+
+    ## Registered S3 method overwritten by 'pegas':
+    ##   method      from
+    ##   print.amova ade4
+
+    ## Registered S3 method overwritten by 'genetics':
+    ##   method      from 
+    ##   [.haplotype pegas
+
+``` r
 library(vcfR)
+```
+
+    ## 
+    ##    *****       ***   vcfR   ***       *****
+    ##    This is vcfR 1.15.0 
+    ##      browseVignettes('vcfR') # Documentation
+    ##      citation('vcfR') # Citation
+    ##    *****       *****      *****       *****
+
+``` r
 library(adegenet)
 library(pegas)
-library(dartR)
-library(tidyr)
+```
 
+    ## Loading required package: ape
+
+    ## 
+    ## Attaching package: 'ape'
+
+    ## The following object is masked from 'package:dplyr':
+    ## 
+    ##     where
+
+    ## 
+    ## Attaching package: 'pegas'
+
+    ## The following object is masked from 'package:ape':
+    ## 
+    ##     mst
+
+    ## The following objects are masked from 'package:vcfR':
+    ## 
+    ##     getINFO, write.vcf
+
+    ## The following object is masked from 'package:ade4':
+    ## 
+    ##     amova
+
+``` r
 #load data
 warblers <- read.vcfR("data/warbler_341_unlinked_variants_highcov.recode.vcf")
+```
+
+    ## Scanning file to determine attributes.
+    ## File attributes:
+    ##   meta lines: 223
+    ##   header_line: 224
+    ##   variant count: 113
+    ##   column count: 350
+    ## Meta line 223 read in.
+    ## All meta lines processed.
+    ## gt matrix initialized.
+    ## Character matrix gt created.
+    ##   Character matrix gt rows: 113
+    ##   Character matrix gt cols: 350
+    ##   skip: 0
+    ##   nrows: 113
+    ##   row_num: 0
+    ## Processed variant: 113
+    ## All variants processed
+
+``` r
 summary(warblers)
+```
+
+    ## Length  Class   Mode 
+    ##      1   vcfR     S4
+
+``` r
 pop <- read.csv("data/warbler_341_final_metadata.csv") %>% 
   dplyr::select(INDV = SpecimenID, Species_samplingcategory)
 
@@ -455,89 +566,170 @@ pop_filt <- pop[match(indvs, pop$INDV), ]
 warbgenind@pop <- as.factor(pop_filt$Species)
 
 AR <- popgenreport(warbgenind, mk.allel.rich=TRUE, mk.pdf = F)
-
-saveRDS(AR, "results/allelic_richness_warbler_341_unlinked_variants_highcov.rds")
 ```
 
+    ## Population BTBW_historic has 1 locus/loci with less than 3 genotypes. This may cause errors in some analyses. We advice to combine or drop populations with low numbers of genotypes.
+
+    ## Population PRAW_historic has 1 locus/loci with less than 3 genotypes. This may cause errors in some analyses. We advice to combine or drop populations with low numbers of genotypes.
+
+    ## There is no results folder. I am trying to create it; 
+    ## otherwise please create the folder manually.
+
+    ## Compiling report...
+
+    ## - General summary...
+
+    ##  - No valid coordinates were provided. 
+    ##    Be aware you need to provide a coordinate (or NA) for each individual
+    ##    and the coordinate heading in slot @other has to be 'latlong' or 'xy'.
+    ##    Some of the analyses require coordinates and will be skipped!
+
+    ## - Allelic richness ...
+
+    ## Analysing data ...
+
+    ## All files are available in the folder: 
+    ## /var/folders/l5/v61lc2297358vp5r8xxjzs140000gn/T//Rtmpqc7h98/results
+
 ``` r
-library(tidyr)
+saveRDS(AR, "results/allelic_richness_warbler_341_unlinked_variants_highcov.rds")
 
-AR <- readRDS("results/allelic_richness_warbler_341_unlinked_variants_highcov.rds")
 ## create table of allelic richness output
-mean_richness_values <- AR$allel.rich[[1]]$mean.richness
-sum_richness_values <- AR$allel.rich[[1]]$sum.richness
+mean_richness <- data.frame(species = names(AR$allel.rich[[1]]$mean.richness), 
+                               mean_richness = AR$allel.rich[[1]]$mean.richness)
+sum_richness <- data.frame(species = names(AR$allel.rich[[1]]$sum.richness), 
+                               sum_richness = AR$allel.rich[[1]]$sum.richness)
 
-ARdf <- data.frame(
-  species = names(mean_richness_values), 
-  mean_richness = mean_richness_values,
-  sum_richness = sum_richness_values
-)
+ARdf <- merge(mean_richness, sum_richness, by = "species")
+```
+
+    ## Error in fix.by(by.x, x): 'by' must specify a uniquely valid column
+
+``` r
 print(ARdf)
 ```
 
-    ##                             species mean_richness sum_richness
-    ## BLPW_contemporary BLPW_contemporary      1.114113     125.8948
-    ## BLPW_historic         BLPW_historic      1.114734     125.9649
-    ## BTBW_contemporary BTBW_contemporary      1.095693     123.8133
-    ## BTBW_historic         BTBW_historic      1.101230     124.4390
-    ## PRAW_contemporary PRAW_contemporary      1.079602     121.9950
-    ## PRAW_historic         PRAW_historic      1.079612     121.9962
-    ## YRWA_contemporary YRWA_contemporary      1.070103     120.9217
-    ## YRWA_historic         YRWA_historic      1.068743     120.7680
+    ## Error in h(simpleError(msg, call)): error in evaluating the argument 'x' in selecting a method for function 'print': object 'ARdf' not found
 
 ``` r
 write.csv(ARdf, "results/allelic_richness_warbler_341_unlinked_variants_highcov.csv", row.names = F)
+```
 
+    ## Error in eval(expr, p): object 'ARdf' not found
+
+``` r
 ARraw <- as.data.frame(AR$allel.rich[[1]]$all.richness)
 ARraw$site <- rownames(ARraw)
-rownames(ARraw) <- NULL
 
 ## convert AR for stats test, % change
 AR_reshape <- ARraw %>%
-  tidyr::pivot_longer(cols = c("BLPW_contemporary", "BLPW_historic", "BTBW_contemporary",
-                        "BTBW_historic", "PRAW_contemporary", "PRAW_historic",
-                        "YRWA_contemporary", "YRWA_historic" ),
+  pivot_longer(cols = -site,
                names_to = "Species_SamplingCategory",
                values_to = "AR") %>%
   # Separate the combined column into species and sampling category
-  tidyr::separate(Species_SamplingCategory, 
+  separate(Species_SamplingCategory, 
            into = c("Species", "SamplingCategory"), 
            sep = "_")
+```
 
+    ## Error in `pivot_longer()`:
+    ## ! `cols` must select at least one column.
+
+``` r
 blpw <- AR_reshape[AR_reshape$Species == "BLPW",]
+```
+
+    ## Error: object 'AR_reshape' not found
+
+``` r
 blpw_AR_results <- bootstrap_with_ttest(blpw, metric = "AR")
 ```
 
-    ## Baseline group ( historic ): n = 113 
-    ## Comparison group ( contemporary ): n = 113 
-    ## Downsampling to n = 113 per group
+    ## Baseline group ( historic ): n = 0 
+    ## Comparison group ( contemporary ): n = 0 
+    ## Downsampling to n = 0 per group
+
+    ## Warning in mean.default(baseline_sample): argument is not numeric or logical:
+    ## returning NA
+
+    ## Warning in mean.default(comparison_sample): argument is not numeric or logical:
+    ## returning NA
+
+    ## Warning in mean.default(x): argument is not numeric or logical: returning NA
+
+    ## Error in var(x): 'x' is NULL
 
 ``` r
 btbw <- AR_reshape[AR_reshape$Species == "BTBW",]
+```
+
+    ## Error: object 'AR_reshape' not found
+
+``` r
 btbw_AR_results <- bootstrap_with_ttest(btbw, metric = "AR")
 ```
 
-    ## Baseline group ( historic ): n = 113 
-    ## Comparison group ( contemporary ): n = 113 
-    ## Downsampling to n = 113 per group
+    ## Baseline group ( historic ): n = 0 
+    ## Comparison group ( contemporary ): n = 0 
+    ## Downsampling to n = 0 per group
+
+    ## Warning in mean.default(baseline_sample): argument is not numeric or logical:
+    ## returning NA
+
+    ## Warning in mean.default(comparison_sample): argument is not numeric or logical:
+    ## returning NA
+
+    ## Warning in mean.default(x): argument is not numeric or logical: returning NA
+
+    ## Error in var(x): 'x' is NULL
 
 ``` r
 praw <- AR_reshape[AR_reshape$Species == "PRAW",]
+```
+
+    ## Error: object 'AR_reshape' not found
+
+``` r
 praw_AR_results <- bootstrap_with_ttest(praw, metric = "AR")
 ```
 
-    ## Baseline group ( historic ): n = 113 
-    ## Comparison group ( contemporary ): n = 113 
-    ## Downsampling to n = 113 per group
+    ## Baseline group ( historic ): n = 0 
+    ## Comparison group ( contemporary ): n = 0 
+    ## Downsampling to n = 0 per group
+
+    ## Warning in mean.default(baseline_sample): argument is not numeric or logical:
+    ## returning NA
+
+    ## Warning in mean.default(comparison_sample): argument is not numeric or logical:
+    ## returning NA
+
+    ## Warning in mean.default(x): argument is not numeric or logical: returning NA
+
+    ## Error in var(x): 'x' is NULL
 
 ``` r
 yrwa <- AR_reshape[AR_reshape$Species == "YRWA",]
+```
+
+    ## Error: object 'AR_reshape' not found
+
+``` r
 yrwa_AR_results <- bootstrap_with_ttest(yrwa, metric = "AR")
 ```
 
-    ## Baseline group ( historic ): n = 113 
-    ## Comparison group ( contemporary ): n = 113 
-    ## Downsampling to n = 113 per group
+    ## Baseline group ( historic ): n = 0 
+    ## Comparison group ( contemporary ): n = 0 
+    ## Downsampling to n = 0 per group
+
+    ## Warning in mean.default(baseline_sample): argument is not numeric or logical:
+    ## returning NA
+
+    ## Warning in mean.default(comparison_sample): argument is not numeric or logical:
+    ## returning NA
+
+    ## Warning in mean.default(x): argument is not numeric or logical: returning NA
+
+    ## Error in var(x): 'x' is NULL
 
 ``` r
 sp <- c("blpw", "btbw", "praw", "yrwa")
@@ -563,20 +755,15 @@ for (i in 1:length(sp)){
   # Add to results table
   meanAR_results <- rbind(meanAR_results, sp_results)
 }
+```
 
+    ## Error in get(paste0(sp[i], "_AR_results")): object 'blpw_AR_results' not found
+
+``` r
 meanAR_results
 ```
 
-    ##                           Species Species_code AR_mean_percent_change
-    ## 2.5%            Blackpoll Warbler         blpw          -0.0556820949
-    ## 2.5%1 Black-throated Blue Warbler         btbw          -0.5028095479
-    ## 2.5%2             Prairie Warbler         praw          -0.0009602462
-    ## 2.5%3       Yellow-rumped Warbler         yrwa           0.1272522297
-    ##         AR_CI_lower   AR_CI_upper      AR_p
-    ## 2.5%  -0.0556820949 -0.0556820949 0.9771640
-    ## 2.5%1 -0.5028095479 -0.5028095479 0.7926139
-    ## 2.5%2 -0.0009602462 -0.0009602462 0.9995668
-    ## 2.5%3  0.1272522297  0.1272522297 0.9410785
+    ## data frame with 0 columns and 0 rows
 
 ``` r
 rownames(meanAR_results) <- NULL
@@ -588,6 +775,20 @@ write.csv(meanAR_results, "results/Bootstrapped_perc_change_AR_all_sites_all_spp
 
 ``` r
 library(hierfstat)
+```
+
+    ## 
+    ## Attaching package: 'hierfstat'
+
+    ## The following objects are masked from 'package:ape':
+    ## 
+    ##     pcoa, varcomp
+
+    ## The following objects are masked from 'package:adegenet':
+    ## 
+    ##     Hs, read.fstat
+
+``` r
 library(vcfR)
 library(adegenet)
 library(pegas)
@@ -753,7 +954,7 @@ library(here)
 library(dartR.popgen)
 library(vcfR)
 
-warblers <- read.vcfR("data/warbler_341_unlinked_variants_highcov.recode.vcf")
+warblers <- read.vcfR("data/warbler_341_variants_highcov.recode.vcf")
 summary(warblers)
 warbgenind <- vcfR2genind(warblers)
 pop <- read.csv("data/warbler_341_final_metadata.csv")%>% 
@@ -792,49 +993,51 @@ for (i in 1:length(spnames)) {
 write.csv(Netbl, "results/LDNe_results.csv", row.names = F)
 ```
 
-## plot heterozygosity across time
+\#plotting Heterozygosity results
 
 ``` r
 library(tidyverse)
-het <- read.table("data/warbler_341_all_sites_variants_highcov.het", header = T)
 
+het <- read.table("data/warbler_341_all_sites_variants_highcov.het", header = T)
 meta <- read.csv("data/warbler_341_final_metadata.csv")
 
 hetmeta <- merge(het, meta, by.x = "INDV", by.y = "SpecimenID", all.x = T, all.y. = F)
 
-unique(hetmeta$YearSampled)
-```
-
-    ##  [1] 1900 2008 1941 2009 1888 2010 2012 1924 1927 1920 1922 1926 1913 1942 1909
-    ## [16] 1894 1902 1923 1930 1939 1940 1899 1879 1896 1872 1912 1877 1947 1952 1950
-    ## [31] 1953 1955 2014 1921 1789 1904 1897 1911 1919 2005 2003 1946 1944 2011 2004
-    ## [46] 2013 2015 1908 1907 1916 2000 1914 1891 2001 2002 1917 2020 2017 2018 2019
-    ## [61] 2016 1954
-
-``` r
 hetmeta$O.HET. <- 1 - hetmeta$O.HOM.
 hetmeta$prop.Ho <- hetmeta$O.HET./hetmeta$N_SITES
 
-het <- ggplot(data= hetmeta, aes(x = YearSampled, y = prop.Ho))+
+hetmeta$Species[hetmeta$Species == "Myrtle Warbler"] <- "Yellow-rumped Warbler"
+
+colforsp <- c("Prairie Warbler" = "#1AE4B6FF", 
+              "Black-throated Blue Warbler" = "#30123BFF", 
+              "Blackpoll Warbler" = "#7A0403FF",
+              "Yellow-rumped Warbler" = "#FABA39FF")
+hetmeta$Species <- factor(hetmeta$Species, 
+                           levels = c("Prairie Warbler", "Black-throated Blue Warbler", 
+                                      "Blackpoll Warbler", "Yellow-rumped Warbler"))
+
+het <- ggplot(hetmeta, aes(x = YearSampled, y = prop.Ho, color = Species))+
   geom_point(size = 4.5)+
-  geom_smooth(method = "lm", 
-              color = "darkblue", 
-              fill = "lightblue", 
-              alpha = 0.3)+
+  geom_smooth(method = "lm")+
+  scale_color_manual(values = colforsp)+
   facet_wrap(~Species, scales = "free")+
-  labs(x = "Year", y= "Prop. Obs. Heterozygosity")+
+  labs(x = "Year Sampled", y = "Prop. Obs. Heterozygosity")+
   theme_classic()+
-  theme(
-    text = element_text(size = 24),          # Overall text size
-    axis.text = element_text(size = 20),     # Axis tick labels
-    axis.title = element_text(size = 20),    # Axis title
-    plot.title = element_text(size = 20)     # Plot title
-  )
+  theme(axis.title.x = element_text(size = 20),
+        axis.title.y = element_text(size = 20),
+        axis.text = element_text(size = 18),
+        strip.text = element_text(size = 16)) 
+
 het
 ```
 
-![](Calculate_diversity_stats_files/figure-gfm/het-spp-time-1.png)<!-- -->
+    ## `geom_smooth()` using formula = 'y ~ x'
+
+![](Calculate_diversity_stats_files/figure-gfm/het-plot-1.png)<!-- -->
 
 ``` r
-ggsave("results/Het_year_byspp.png", plot = het, dpi = 600, width = 12, height = 8)
+ggsave(filename = "Het_year_byspp.png", path = "results/", 
+       plot = het, dpi = 600, height = 8, width = 12)
 ```
+
+    ## `geom_smooth()` using formula = 'y ~ x'
