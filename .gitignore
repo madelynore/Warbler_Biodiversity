@@ -2,3 +2,15 @@
 .Rhistory
 .RData
 .Ruserdata
+data/SpecimenID_BLPW_contemporary.txt
+data/SpecimenID_PRAW_contemporary.txt
+data/SpecimenID_BLPW_historic.txt
+data/SpecimenID_PRAW_historic.txt
+data/SpecimenID_BLPW.txt
+data/SpecimenID_PRAW.txt
+data/SpecimenID_BTBW_contemporary.txt
+data/SpecimenID_YRWA_contemporary.txt
+data/SpecimenID_BTBW_historic.txt
+data/SpecimenID_YRWA_historic.txt
+data/SpecimenID_BTBW.txt
+data/SpecimenID_YRWA.txt
