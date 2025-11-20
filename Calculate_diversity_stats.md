@@ -589,7 +589,7 @@ AR <- popgenreport(warbgenind, mk.allel.rich=TRUE, mk.pdf = F)
     ## Analysing data ...
 
     ## All files are available in the folder: 
-    ## /var/folders/l5/v61lc2297358vp5r8xxjzs140000gn/T//Rtmpqc7h98/results
+    ## /var/folders/l5/v61lc2297358vp5r8xxjzs140000gn/T//Rtmp1UgM17/results
 
 ``` r
 saveRDS(AR, "results/allelic_richness_warbler_341_unlinked_variants_highcov.rds")
@@ -1020,13 +1020,14 @@ het <- ggplot(hetmeta, aes(x = YearSampled, y = prop.Ho, color = Species))+
   geom_point(size = 4.5)+
   geom_smooth(method = "lm")+
   scale_color_manual(values = colforsp)+
-  facet_wrap(~Species, scales = "free")+
+  facet_wrap(~Species, scales = "free", ncol = 1)+
   labs(x = "Year Sampled", y = "Prop. Obs. Heterozygosity")+
   theme_classic()+
-  theme(axis.title.x = element_text(size = 20),
-        axis.title.y = element_text(size = 20),
-        axis.text = element_text(size = 18),
-        strip.text = element_text(size = 16)) 
+  theme(axis.title.x = element_text(size = 24),
+        axis.title.y = element_text(size = 24),
+        axis.text = element_text(size = 20),
+        strip.text = element_text(size = 24)) +
+  theme(legend.position="none")
 
 het
 ```
@@ -1036,8 +1037,8 @@ het
 ![](Calculate_diversity_stats_files/figure-gfm/het-plot-1.png)<!-- -->
 
 ``` r
-ggsave(filename = "Het_year_byspp.png", path = "results/", 
-       plot = het, dpi = 600, height = 8, width = 12)
+ggsave(filename = "Het_year_byspp_long.png", path = "results/", 
+       plot = het, dpi = 600, height = 24, width = 7)
 ```
 
     ## `geom_smooth()` using formula = 'y ~ x'
